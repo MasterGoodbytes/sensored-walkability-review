@@ -18,9 +18,9 @@ We developed a reproducible framework grounded in peer-reviewed literature and a
 
 ## Article Information
 
-This repository adapts the framework made available with the following paper:
+This repository is a fork of the original [genai-smartcity project](https://github.com/les2feup/genai-smartcity), adapting its reproducible NLP framework to the analysis of sensing technologies for walkability assessment. The original project is associated with the following paper:
 
-...
+> Bittencourt, J. C. N., Flores, T. K. S., Jesus, T. C., & Costa, D. G. (2025). On the Role of AI in Building Generative Urban Intelligence. In Review. <https://doi.org/10.21203/rs.3.rs-7131966/v1>
 
 ## Repository Structure
 
