@@ -1,53 +1,41 @@
 ![Figure 1](./figures/les2banner.png)
 
-# On the Role of AI in Building Generative Urban Intelligence
+# Sensor-Based Walkability Assessment in Smart Cities
 
-This study explores the applications, impacts, challenges, and promising future trends of Generative Artificial Intelligence (GenAI) within the context of smart cities, discussing generative urban intelligence perspectives for simulating alternative urban scenarios, co-designing infrastructure prototypes, and improving service delivery. It provides a pioneering perspective on an underexplored field that is expected to transform urban design, planning, and management.
+This study explores how sensing technologies are used to assess walkability within the context of smart cities, examining the dimensions of the pedestrian environment measured by different sensor modalities. It provides a systematic perspective on the relationship between walkability dimensions and sensing technologies in urban contexts.
 
-We developed a reproducible framework grounded in peer-reviewed literature and systematic Natural Language Processing (NLP) analytical approach. The framework is designed to facilitate the identification of GenAI applications in smart cities, enabling to systematically explore the potential of generative models in urban contexts.
+We developed a reproducible framework grounded in peer-reviewed literature and a systematic Natural Language Processing (NLP) analytical approach. The framework is designed to facilitate the identification of sensor-based walkability studies, classify walkability dimensions and sensing technologies, and analyze their co-occurrence in the literature.
 
 ---
 
-![Summary of the Methodology](./figures/methodology.png)
-
 ## Key Features
 
--   **Systematic Review:** NLP-based analysis of approximately 1000 articles.
--   **Domain-Specific Insights:** A comprehensive taxonomy of GenAI applications in smart cities.
+-   **Systematic Review:** NLP-based analysis of peer-reviewed articles retrieved from Scopus.
+-   **Domain-Specific Insights:** A taxonomy of walkability dimensions and sensing technologies.
 -   **Reproducible Analysis:** Code and data are structured for reuse and verification.
 
 ---
 
 ## Article Information
 
-If you reference this work in a scientific context, please cite this paper:
+This repository adapts the framework made available with the following paper:
 
-> Bittencourt, J. C. N., Flores, T. K. S., Jesus, T. C., & Costa, D. G. (2025). On the Role of AI in Building Generative Urban Intelligence. In Review. <https://doi.org/10.21203/rs.3.rs-7131966/v1>
+...
 
 ## Repository Structure
 
 ```plaintext
 .
 ├── README.md                # Project overview and instructions
-├── config/                  # Configuration files for the analysis
-├── data/                    # Datasets generated in the study
-├── manuscript/              # Manuscript and related documents
-├── model/                   # Models training notebooks for analysis
-├── notebooks/               # Jupyter notebooks for analysis
-├── results/                 # Output files and analysis results
+├── data/                    # Datasets and configuration files used in the study
+├── figures/                 # Figures used in the repository
+├── model/                   # Model evaluation and training notebooks
+├── notebooks/               # Jupyter notebooks for the analysis
+└── results/                 # Output files and analysis results
 ```
 
 ## Dataset & Model
 
--   The dataset used in this study for model training and validation is available [here](https://doi.org/10.57967/hf/6339).
+-   The datasets generated and used in this study are available in the `data/` directory.
 
--   The models trained in this study are available [here](https://doi.org/10.57967/hf/6340).
-
-## Contact Information
-
-For questions or collaboration, please contact:  
-**João Carlos N. Bittencourt**  
-Email: [joaocarlos@ufrb.edu.br](mailto:joaocarlos@ufrb.edu.br)
-
-**Daniel G. Costa**  
-Email: [danielgcosta@fe.up.pt](mailto:danielgcosta@fe.up.pt)
+-   The model datasets and notebooks used for screening and validation are available in the `model/` directory.
