@@ -1,0 +1,1746 @@
+[
+  {
+    "text":"Estimating effective sidewalk width under obstruction using fused imagery and range data. Nominal sidewalk width overstates the space actually available to pedestrians because poles, signage, parked vehicles and street furniture reduce the usable corridor. We fused street-level panoramic images with synchronised lidar returns to segment the paved surface and to detect intruding objects. Effective width was then computed as the largest obstruction-free corridor at each location. Across a downtown study area, effective width was on average 0.9 m narrower than the cadastral value, and 18 percent of segments fell below the minimum required for two-way pedestrian flow.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":67
+  },
+  {
+    "text":"Smartphone inertial sensing of pavement roughness along pedestrian and wheelchair routes. Surface irregularity is a determinant of comfort and safety for pedestrians and a barrier for wheelchair users, but it is seldom mapped systematically. Volunteers carried instrumented smartphones and wheelchair-mounted accelerometers along 60 km of routes, and vertical acceleration signals were converted into a roughness index calibrated against a reference profilometer. Spatially aggregated results revealed systematic differences between central and peripheral districts, and the index correlated with participants' self-reported discomfort ratings collected immediately after each trip.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":68
+  },
+  {
+    "text":"Mapping sidewalk network continuity through semantic segmentation of street-level imagery. Pedestrian network datasets are absent or incomplete in most cities, which limits routing and equity analysis. We applied a semantic segmentation model to 210,000 street-level images to detect sidewalk presence on each side of every street segment, and reconstructed a topologically connected pedestrian network. Gaps were classified as physical discontinuity, occlusion, or genuine absence. The derived network revealed that 22 percent of residential streets lacked a continuous walking surface, with discontinuities clustering around arterial crossings and industrial land uses.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":69
+  },
+  {
+    "text":"Pedestrian-level perceived safety modelled from segmented streetscape features and physiological response. This study combined objective streetscape measurement with in-situ human response. Street-level imagery was segmented to quantify enclosure, visual openness, lighting fixtures, blank walls and maintenance indicators. Simultaneously, participants walked predefined routes wearing electrodermal activity and heart-rate sensors, with signals timestamped and matched to street segments. Segments characterised by blank frontages and low visual permeability were associated with elevated arousal, and a model combining both data sources outperformed either alone in predicting subsequent safety ratings.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":70
+  },
+  {
+    "text":"Quantifying shade availability on sidewalks from mobile lidar and hemispherical imaging. Shade is a decisive determinant of walking comfort in hot climates, yet canopy cover measured from above does not indicate whether the walking surface itself is shaded. This work combined mobile lidar point clouds with hemispherical images captured at pedestrian height to reconstruct sky view factor and to simulate shadow projection onto the sidewalk across the day. Segment-level shade duration was validated against on-site pyranometer readings. Results showed that only 34 percent of the sidewalk network received more than four hours of shade during peak summer hours.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":71
+  },
+  {
+    "text":"Mobile microclimate transects for mapping pedestrian thermal comfort at street level. Static weather stations poorly represent the thermal conditions experienced while walking. Instrumented carts and body-worn sensors recorded air temperature, relative humidity, wind speed and globe temperature along repeated walking transects during summer afternoons. Universal Thermal Climate Index values were computed continuously and matched to street segments. Shaded segments with continuous tree canopy showed values up to 7 degrees lower than adjacent unshaded segments, and the resulting maps identified priority corridors for shading interventions.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":72
+  },
+  {
+    "text":"Automated inventory of pedestrian crossing infrastructure using street-level images. Safe crossing opportunities are a central component of the pedestrian environment but are rarely inventoried at scale. We trained a detection model to identify zebra markings, pedestrian signal heads, refuge islands and dropped kerbs from street-level imagery at 26,000 intersections. Detected features were aggregated into a crossing provision score for each intersection. Field validation at 200 sites indicated precision above 0.85 for all classes. Provision scores were markedly lower in lower-income districts, revealing a spatial inequity in crossing infrastructure.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":74
+  },
+  {
+    "text":"Detecting missing and damaged curb ramps from street-level imagery using an object detection network. Curb ramps are a prerequisite for barrier-free pedestrian travel, yet municipal inventories are frequently incomplete. This study fine-tuned a detection model on 14,000 annotated street-level images to locate curb ramps at intersections and to classify their condition as intact, damaged or absent. The model achieved a mean average precision of 0.81 on a held-out test set. Applied to an entire mid-sized city, the pipeline flagged 27 percent of intersections as lacking at least one compliant ramp, and results were verified by field inspection of a stratified sample.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":75
+  },
+  {
+    "text":"Deriving effective pedestrian network connectivity from imagery-detected sidewalk presence. Conventional connectivity measures are computed on road centrelines and assume that every street is walkable. This study used a segmentation model to detect sidewalk presence on each side of every street segment across a metropolitan area, producing a pedestrian-specific network. Connectivity indices were then recomputed on this network and compared with values derived from road centrelines. Pedestrian connectivity was substantially lower and its spatial pattern differed, with suburban districts reclassified from moderate to poor connectivity.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":76
+  },
+  {
+    "text":"Wearable physiological sensing to identify stressful segments of commuting walking routes. Physiological monitoring can localise where in a route discomfort arises. Commuters wore chest-mounted sensors capturing heart rate and electrodermal activity during habitual walking commutes over two weeks, with positions logged by satellite. Signals were normalised per participant and segment-level arousal indices were computed. Elevated arousal clustered at unsignalised crossings of arterial roads and at segments lacking a physical buffer from traffic, and clusters were reproducible across participants.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":77
+  },
+  {
+    "text":"We used smartphone accelerometry to quantify ambulation in older adults and linked it to walkability tertiles obtained from a published index.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":80
+  },
+  {
+    "text":"GPS loggers tracked participants' mobility to test whether residential walkability scores predict sleep duration, with walkability taken from an existing regional dataset.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":81
+  },
+  {
+    "text":"Wrist-worn devices captured moderate-to-vigorous physical activity; the built environment exposure was derived from administrative land use records rather than measured.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":82
+  },
+  {
+    "text":"Accelerometers recorded participants' daily step counts, while neighbourhood walkability was assigned from a pre-existing composite index based on census data.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":83
+  },
+  {
+    "text":"Street view imagery is proposed in our discussion as a scalable option; the pedestrian crossing inventory presented here was compiled from planning department drawings.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":84
+  },
+  {
+    "text":"While GPS tracking is discussed as an alternative, participants reported their walking routes using paper travel diaries.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":85
+  },
+  {
+    "text":"Deep learning is mentioned as a possible extension, but sidewalk width in this study was measured with a measuring wheel during field audits.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":86
+  },
+  {
+    "text":"The keywords include semantic segmentation, yet the analysis relies exclusively on municipal sidewalk inventory records provided by the city.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":87
+  },
+  {
+    "text":"Future work will explore wearable sensors to capture pedestrian thermal stress; the present paper reports only a questionnaire-based comfort survey.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":88
+  },
+  {
+    "text":"We compare our findings with previous street view based studies, however no imagery was processed and no sensor data were collected in this work.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":89
+  },
+  {
+    "text":"Although computer vision approaches are cited in the background section, walkability in this study was operationalized using a GIS-based index of intersection density and land use mix.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":90
+  },
+  {
+    "text":"Our literature review discusses LiDAR and street view imagery as promising tools for sidewalk auditing, but the assessment reported here was conducted entirely through manual field visits by trained observers.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":91
+  },
+  {
+    "text":"Evaluating a school-based active travel promotion programme. Encouraging walking and cycling to school has health and environmental benefits. This evaluation compared intervention and control schools using repeated hands-up surveys of travel mode and parent questionnaires over two academic years. Difference-in-difference models estimated programme effect. Modest increases in walking were observed at intervention schools, concentrated among children living within one kilometre; environmental conditions were not measured.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":92
+  },
+  {
+    "text":"Association between transit accessibility and car ownership in metropolitan households. Reducing car dependence is a policy objective in many regions. This study computes transit accessibility from scheduled service data and network analysis, and relates it to car ownership reported in a household travel survey. Ordered response models control for income, household composition and residential self-selection. Accessibility was inversely associated with ownership, though the effect size was modest after accounting for residential preferences.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":93
+  },
+  {
+    "text":"Reinforcement learning for socially aware robot motion among pedestrians. Service robots operating in pedestrian spaces must move predictably. This work trains a policy that anticipates pedestrian intent from short observation windows and generates motion respecting social distance conventions. Training used a mixture of simulated crowds and recorded trajectory datasets. Evaluation in a pedestrianised area demonstrated reduced intrusion into personal space compared with a baseline planner while maintaining goal completion rates.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":94
+  },
+  {
+    "text":"Portable microclimate instruments carried along walking transects recorded air temperature, humidity and globe temperature to map pedestrian thermal comfort at the segment level.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":95
+  },
+  {
+    "text":"Street-level panoramic images were segmented with a deep network to measure sidewalk width, surface condition and the presence of curb ramps along 1,200 street segments.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":96
+  },
+  {
+    "text":"Satellite imagery and NDVI were used to characterise neighbourhood greenness for an epidemiological analysis.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":97
+  },
+  {
+    "text":"Airborne LiDAR was classified into voxel zones to quantify street furniture and vegetation volume across the city, using exclusively aerial acquisition.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":98
+  },
+  {
+    "text":"Roadside cameras monitored e-scooter riders' helmet compliance and speed at eight urban sites.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":99
+  },
+  {
+    "text":"Inertial sensors recorded stride parameters of patients during a supervised corridor walking test in a rehabilitation clinic.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":100
+  },
+  {
+    "text":"GPS traces from bike-sharing trips were combined with street view imagery to model cyclists' route preferences.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":101
+  },
+  {
+    "text":"LiDAR point clouds were used to detect sidewalk boundaries for the navigation stack of an autonomous delivery robot.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":102
+  },
+  {
+    "text":"Participants viewed rendered street scenes and answered comfort questionnaires; the images served as survey stimuli rather than as measurement data.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":103
+  },
+  {
+    "text":"Microclimate conditions along the walking route were modelled with ENVI-met; validation against on-site instruments is left for future work.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":105
+  },
+  {
+    "text":"An agent-based model reproduced pedestrian flows along the promenade using synthetic demand, without any empirical sensor observation.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":106
+  },
+  {
+    "text":"Pedestrian thermal comfort in the street canyon was estimated through computational fluid dynamics simulation under varying aspect ratios; no field measurements were taken.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":107
+  },
+  {
+    "text":"Semantic segmentation of street imagery was applied to classify architectural styles for heritage documentation purposes.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":108
+  },
+  {
+    "text":"Panoramic imagery was segmented to detect outdoor advertising density for a study of tobacco marketing exposure.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":109
+  },
+  {
+    "text":"A vehicle-mounted camera and deep learning pipeline were used to estimate neighbourhood carbon emissions from facade characteristics.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":110
+  },
+  {
+    "text":"Crowdsourced street-level photographs were segmented to detect sidewalk discontinuities and missing curb ramps in informal settlements.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":111
+  },
+  {
+    "text":"A backpack-mounted mobile mapping system captured point clouds used to derive longitudinal slope profiles of pedestrian routes for accessibility assessment.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":112
+  },
+  {
+    "text":"Deep learning applied to street view imagery quantified facade transparency, active frontages and street furniture as indicators of streetscape attractiveness.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":113
+  },
+  {
+    "text":"Thermal cameras mounted at pedestrian height recorded surface temperatures of paving materials to assess heat exposure along shaded and unshaded footpaths.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":114
+  },
+  {
+    "text":"Street-level images were classified to inventory pedestrian crossing markings, signal presence and refuge islands across an entire municipality.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":115
+  },
+  {
+    "text":"Smartphone-mounted inertial sensors detected surface roughness and vibration along wheelchair and pedestrian paths to characterise pavement quality.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":116
+  },
+  {
+    "text":"Panoramic imagery was processed to compute green view index and sky view factor at pedestrian eye level across a dense urban district.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":117
+  },
+  {
+    "text":"Illuminance loggers carried along night-time walking routes measured lighting levels at pedestrian eye height and mapped underlit segments.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":118
+  },
+  {
+    "text":"Mobile lidar and street imagery were fused to detect obstacles, poles and temporary barriers obstructing the effective walking width of sidewalks.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":119
+  },
+  {
+    "text":"Fixed cameras with automated counting quantified pedestrian volumes before and after a sidewalk widening intervention on a commercial corridor.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":120
+  },
+  {
+    "text":"Low-cost particulate matter sensors carried by pedestrians characterised exposure along alternative walking routes through the city centre.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":121
+  },
+  {
+    "text":"Eye-tracking glasses recorded gaze behaviour of pedestrians walking through commercial streets, linking fixation patterns to segmented streetscape elements.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":122
+  },
+  {
+    "text":"A vehicle-mounted camera dataset was annotated and used to train a detector for tactile paving continuity on urban sidewalks.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":124
+  },
+  {
+    "text":"Roadside cameras counted heavy goods vehicles to calibrate a freight movement model for the metropolitan region.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":127
+  },
+  {
+    "text":"A convolutional model applied to facade photographs predicted building construction year for cadastral record enrichment.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":128
+  },
+  {
+    "text":"Street imagery was segmented to estimate the socioeconomic status of neighbourhoods for a study of urban inequality.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":129
+  },
+  {
+    "text":"Pedometers issued to participants recorded daily step totals for comparison across neighbourhoods classified by a previously validated walkability typology.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":131
+  },
+  {
+    "text":"Continuous glucose monitors and wrist accelerometers were combined to study metabolic response to habitual walking, with environmental exposure taken from an established index.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":132
+  },
+  {
+    "text":"Thigh-worn inclinometers distinguished sitting from walking postures, while neighbourhood walkability was extracted from an existing municipal geodatabase.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":133
+  },
+  {
+    "text":"Accelerometry is proposed as a follow-up avenue; walking exposure in this paper is self-reported through a seven-day recall diary.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":134
+  },
+  {
+    "text":"References to lidar-derived sidewalk inventories are made for comparison, yet our own measurements were obtained by tape measure at sampled locations.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":135
+  },
+  {
+    "text":"Semantic segmentation appears among the indexed keywords because the authors previously published such work; this paper is a policy analysis with no image data.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":136
+  },
+  {
+    "text":"Sensor networks are described in the theoretical framework, while the walkability score reported here combines census density and network connectivity.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":137
+  },
+  {
+    "text":"Our conclusions call for wearable sensing of pedestrian stress, although the evidence presented derives entirely from focus group transcripts.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":138
+  },
+  {
+    "text":"We benchmark against published computer vision pipelines; no images were acquired or processed for the present analysis.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":139
+  },
+  {
+    "text":"The study protocol anticipated deploying microclimate sensors, but logistical constraints meant that only meteorological station records were ultimately used.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":140
+  },
+  {
+    "text":"Panoramic imagery is referenced throughout the introduction, yet greenery in this analysis was quantified from a municipal tree register.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":141
+  },
+  {
+    "text":"Although the abstract of related work highlights mobile lidar for kerb inspection, our compliance assessment relied on a checklist completed on site by municipal inspectors.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":142
+  },
+  {
+    "text":"A pedestrian-borne camera and GNSS rig captured continuous footway imagery from which surface defects and vertical displacements were automatically detected.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":143
+  },
+  {
+    "text":"Handheld thermal and illuminance instruments recorded conditions at pedestrian height beneath arcades and in adjacent open sections of the same street.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":144
+  },
+  {
+    "text":"Street-level imagery was segmented to detect the presence, continuity and material of footways along the full municipal street network.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":145
+  },
+  {
+    "text":"A discrete choice experiment used illustrated street cross-sections to elicit preferences for pavement widening among residents.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":146
+  },
+  {
+    "text":"Photographs of street scenes were shown to an expert panel that scored design quality; no automated processing of the imagery was carried out.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":147
+  },
+  {
+    "text":"Very high resolution satellite imagery was classified to delineate impervious surfaces across the metropolitan footprint.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":148
+  },
+  {
+    "text":"Canopy cover over streets was derived exclusively from airborne laser scanning flown at 1,500 metres, with no ground-level acquisition.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":149
+  },
+  {
+    "text":"Vehicle-mounted lidar mapped lane geometry and road markings for high-definition map production.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":150
+  },
+  {
+    "text":"A wearable system recorded joint kinematics of participants walking on an instrumented laboratory walkway during a clinical assessment.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":151
+  },
+  {
+    "text":"Depth cameras mounted on a service robot detected kerb edges to prevent tipping during autonomous footway traversal.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":153
+  },
+  {
+    "text":"Noise levels along the pedestrian corridor were estimated with a standard traffic noise propagation model rather than measured.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":154
+  },
+  {
+    "text":"Radiant temperature along the proposed promenade was predicted with a solar geometry model; on-site verification is planned for a subsequent phase.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":155
+  },
+  {
+    "text":"A microscopic pedestrian simulation reproduced crowd densities on the redesigned square using calibrated behavioural parameters and no field instrumentation.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":156
+  },
+  {
+    "text":"Mobile lidar surveyed overhead clearance beneath bridges to support oversize vehicle routing.",
+    "label":"Not related",
+    "source":"contrastive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":157
+  },
+  {
+    "text":"Distributed acoustic sensing for continuous soundscape monitoring of pedestrian streets. Sound conditions vary sharply over short distances but are usually characterised by sparse measurement. A network of calibrated acoustic nodes was installed along pedestrian streets and recorded equivalent and percentile sound levels continuously for eight months. Spectral descriptors were computed and clustered to distinguish traffic-dominated from activity-dominated soundscapes. Segments classified as activity-dominated coincided with locations exhibiting higher observed pedestrian dwell time.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":159
+  },
+  {
+    "text":"Ground-level thermal imaging recorded paving surface temperatures across shaded and exposed sections of a pedestrian boulevard through a summer day.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":160
+  },
+  {
+    "text":"Vehicle-mounted imaging with segmentation detected temporary obstructions such as skips, scaffolding and parked vehicles encroaching on footways.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":161
+  },
+  {
+    "text":"Fixed cameras with automated tracking recorded pedestrian crossing trajectories and waiting times at signalised and unsignalised intersections.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":162
+  },
+  {
+    "text":"Wheel-mounted accelerometers on manual wheelchairs quantified surface-induced vibration along pavement types in the historic centre.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":163
+  },
+  {
+    "text":"Fisheye imaging at pedestrian height produced sky view factor estimates used to characterise solar exposure of footways across street orientations.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":164
+  },
+  {
+    "text":"Mobile mapping point clouds were processed to inventory benches, shelters and handrails available along pedestrian routes to health facilities.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":165
+  },
+  {
+    "text":"Portable particulate and nitrogen dioxide sensors carried along paired pedestrian routes quantified differences in exposure between arterial and interior alternatives.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":166
+  },
+  {
+    "text":"Panoramic segmentation quantified blank wall extent, glazing ratio and doorway frequency along ground-floor frontages of the commercial core.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":167
+  },
+  {
+    "text":"A smartphone-mounted camera and inclinometer captured footway gradient and surface type along routes used by older residents.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":168
+  },
+  {
+    "text":"Structured light scanning recovered the profile geometry of tactile guidance surfaces and identified interruptions along designated routes.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":170
+  },
+  {
+    "text":"Calibrated microphones carried during systematic soundwalks produced continuous equivalent sound level profiles for the pedestrian network.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":171
+  },
+  {
+    "text":"Body-worn electrodermal sensors recorded arousal along matched walking routes and responses were mapped to segment-level streetscape attributes.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":172
+  },
+  {
+    "text":"Terrestrial laser scanning of pedestrian underpasses produced clearance and width profiles compared against accessibility requirements.",
+    "label":"Sensing of walkability dimension",
+    "source":"contrastive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":173
+  },
+  {
+    "text":"Deep learning estimation of building height from aerial imagery. Accurate building height data support a range of urban analyses. This work trains a network to regress building height from high-resolution aerial imagery combined with shadow information, evaluated against airborne lidar-derived reference heights. Performance was assessed across building typologies and densities. Errors were largest for low-rise structures in dense blocks, and the derived height layer was released for the study region.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":175
+  },
+  {
+    "text":"Household travel survey analysis of walking trip generation. Trip generation models underpin transport demand forecasting. This study analyses walking trip rates reported in a metropolitan household travel survey, disaggregated by household composition, income and residential location type. Count models were estimated and compared. Results indicate systematic underreporting of short walking stages and propose correction factors derived from a supplementary diary validation exercise.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":176
+  },
+  {
+    "text":"Evaluating a virtual reality protocol for streetscape preference elicitation. Immersive environments offer controlled presentation of design alternatives. Participants viewed reconstructed street scenes in a head-mounted display and rated preference and perceived quality across systematically varied design parameters. Ratings were analysed with mixed models. The protocol produced consistent preference orderings, and its reliability relative to photographic presentation is discussed; no measurement of existing physical environments was undertaken.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":177
+  },
+  {
+    "text":"Machine learning prediction of street tree failure risk. Tree failure poses risks to property and people in cities. This study applied regression trees and ensemble methods to predict failure using attributes obtainable in routine field inspection, including species, diameter, surrounding building height and district age. Models were trained on municipal failure records over a decade. Surrounding building height and district age emerged as the dominant predictors, supporting risk-based scheduling of preventive maintenance.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":178
+  },
+  {
+    "text":"Land use mix and transport mode share in medium-sized European cities. Diversity of land use is a recognised correlate of travel behaviour. This study computes entropy-based land use mix indicators from cadastral records for medium-sized cities and relates them to mode share reported in national travel surveys. Multilevel models control for household characteristics and city size. Land use mix showed a positive association with walking mode share, though the magnitude varied considerably between national contexts.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":179
+  },
+  {
+    "text":"Pedestrian volume estimation from wireless signal detection on commercial streets. Continuous pedestrian counts support evaluation of streetscape investment. Wireless probe request detection was deployed on commercial streets, with detection rates calibrated against synchronised manual counts and correction factors estimated for device carriage rates. Continuous volume estimates were produced for eighteen months spanning a public realm improvement. Post-intervention volumes rose significantly relative to comparison streets after controlling for weather and seasonality.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":181
+  },
+  {
+    "text":"Illuminance and luminance mapping of pedestrian underpasses using calibrated imaging. Underpasses concentrate perceived insecurity within pedestrian networks. Calibrated luminance imaging and point illuminance measurement were carried out in fourteen underpasses at night, producing spatial distributions of light level, uniformity and glare. Measured metrics were compared against design guidance and against user ratings collected on site. Uniformity, rather than mean illuminance, showed the strongest association with reported reassurance.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":182
+  },
+  {
+    "text":"Detecting vegetation encroachment on footways from mobile imagery and range data. Overgrown vegetation reduces effective walking width and forces pedestrians onto the carriageway. Mobile mapping imagery and lidar returns were processed to detect vegetation intruding into the pedestrian clearance envelope, quantifying intrusion depth and height. Detections were compared with maintenance complaint records. Automated detection identified substantially more encroachment locations than the complaint-driven process, most of them on low-traffic residential streets.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":183
+  },
+  {
+    "text":"Wearable multi-sensor assessment of walking environments at a transport interchange. Automated characterisation of walking conditions can reduce reliance on surveys. A wearable system combining inertial sensors, barometric altimetry and a forward-facing camera was used to classify walking environments encountered at a transport interchange, distinguishing level surfaces, ramps, stairs and uneven paving. Several classifiers were compared and the best configuration exceeded 90 percent accuracy against annotated ground truth, enabling automated profiling of access routes.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":184
+  },
+  {
+    "text":"Georeferenced video and machine learning for auditing sidewalk accessibility barriers. Manual accessibility audits are difficult to scale. A pedestrian-borne camera with GNSS logging captured continuous video along the footway network, and a detection model identified barriers including steps, poles, temporary signage and surface breaks. Detections were georeferenced and aggregated to segments. Agreement with expert manual audit reached substantial levels, and the resulting barrier map supported prioritisation of remediation works.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":186
+  },
+  {
+    "text":"Fixed camera observation of pedestrian crossing behaviour and infrastructure adequacy. Crossing provision can be evaluated by observing how it is actually used. Fixed cameras recorded pedestrian crossing movements at twelve intersections, and an automated tracking pipeline extracted crossing trajectories, waiting times and non-compliant crossings. Observed behaviour was related to measured crossing geometry and signal timing. Intersections with longer crossing distances and shorter clearance intervals exhibited higher rates of incomplete crossings.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":187
+  },
+  {
+    "text":"Structured light scanning of tactile paving continuity on urban footways. Tactile surfaces guide visually impaired pedestrians but degrade and are frequently interrupted by works. Handheld structured light scanning captured the geometry of tactile paving along designated guidance routes, from which profile height, spacing and continuity breaks were extracted. Automated detection of interruptions was validated against manual inspection. More than a fifth of the guidance network contained breaks exceeding the length considered navigable.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":188
+  },
+  {
+    "text":"Thermal comfort mapping of pedestrian networks using bicycle-mounted mobile sensing. Systematic characterisation of microclimate along pedestrian routes requires dense spatial sampling. A bicycle-mounted instrument package recorded air temperature, humidity, wind speed and mean radiant temperature along repeated transects covering the pedestrian network of a mid-sized city. Data were corrected for sensor response time and aggregated by street segment. Derived comfort indices identified a consistent set of thermally disadvantaged corridors linking residential areas to transit.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":189
+  },
+  {
+    "text":"Image-based detection of construction progress on building sites. Monitoring progress supports project control. Imagery captured periodically from fixed positions on construction sites was processed to detect completed structural elements and compare them against the planned schedule. Detection performance was evaluated against manual progress reports. The method identified schedule deviations earlier than routine reporting on the pilot projects.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":191
+  },
+  {
+    "text":"Optimising bus stop placement using scheduled service and demand data. Stop spacing balances access and speed. This study formulates stop placement as an optimisation problem using demand estimated from smartcard records and walking access computed on the street network. Alternative spacing scenarios are evaluated against access and running time objectives. Results indicate scope for consolidation on suburban corridors without material access penalty for most passengers.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":192
+  },
+  {
+    "text":"Longitudinal cohort analysis of neighbourhood change and self-reported walking. Residential context evolves over time. This analysis linked repeated survey waves to time-varying neighbourhood characteristics derived from administrative sources, examining whether changes in the residential context were associated with changes in reported walking. Fixed effects models controlled for time-invariant individual characteristics. Modest associations were observed for changes in destination availability, and no environmental measurement was undertaken by the authors.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":193
+  },
+  {
+    "text":"Mapping pedestrian-level air flow and pollutant dispersion with distributed sensing in a street canyon. Ventilation of street canyons governs pollutant accumulation at pedestrian height. A distributed array of anemometers and particulate sensors was installed at pedestrian height along a canyon of uniform geometry, recording for one year. Measured flow regimes were classified by ambient wind direction and related to observed concentration. Concentrations under perpendicular wind conditions exceeded parallel conditions by a wide margin on the leeward footway.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":194
+  },
+  {
+    "text":"Detection of pedestrian route obstruction by vegetation using seasonal imagery comparison. Vegetation growth intermittently obstructs footways. Street imagery captured in successive seasons was registered and compared to detect vegetation intruding into the pedestrian clearance envelope, quantifying intrusion depth and persistence. Detections were verified in the field. Persistent intrusions concentrated on segments adjacent to private gardens, where maintenance responsibility is ambiguous, and were largely absent from the municipal complaint record.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":195
+  },
+  {
+    "text":"Assessing pedestrian exposure to traffic noise and vibration on narrow footways. Narrow footways place pedestrians close to moving traffic. Sound level meters and triaxial vibration sensors were mounted at pedestrian height on footways of differing width along comparable traffic corridors, recording continuously for one month. Exposure metrics were computed and related to measured lateral separation from the carriageway. Both noise and perceptible vibration declined steeply with lateral separation, with the sharpest gradient in the first metre.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":196
+  },
+  {
+    "text":"Quantifying facade maintenance and vacancy from street imagery as indicators of walking environment quality. Visible decline discourages walking. A multi-label classifier applied to street imagery detected boarded openings, peeling finishes, graffiti and vacancy indicators along commercial frontages, producing a maintenance index per segment. Agreement with trained auditors was substantial. Index values tracked changes across two image vintages and declined most sharply on segments where anchor retail units had closed.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":197
+  },
+  {
+    "text":"Continuous footway counts using stereo cameras to evaluate a pedestrianisation scheme. Robust evaluation requires continuous measurement over an adequate period. Stereo cameras with automated detection recorded footway volumes and directional flows at treated and comparison streets for six months before and twelve months after a pedestrianisation scheme. Counts were validated against manual observation. Volumes on treated streets increased and stationary activity rose disproportionately, while comparison streets showed no equivalent change.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":198
+  },
+  {
+    "text":"Measuring visual attention to hazards during walking with mobile eye tracking. Whether pedestrians notice hazards depends on the visual environment. Participants walked routes containing typical hazards such as raised slabs, bollards and cyclist crossings while wearing mobile eye-tracking glasses, with gaze mapped onto segmented imagery of the same locations. Fixation on hazards was related to visual clutter measured from the imagery. Detection of low-contrast hazards declined markedly in visually complex settings, with implications for hazard marking.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":199
+  },
+  {
+    "text":"Sensing footway surface temperature and moisture to characterise slip and heat conditions. Surface state affects both slip risk and thermal comfort. A pedestrian-borne rig combining infrared surface thermometry and a moisture sensor traversed footways across seasons, and readings were georeferenced and aggregated by segment and material. Shaded stone surfaces retained moisture substantially longer after rainfall, and exposed asphalt reached surface temperatures that coincided with locations of reported discomfort in a parallel survey.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":200
+  },
+  {
+    "text":"Detecting handrails, steps and level changes along pedestrian routes with mobile range sensing. Vertical discontinuities determine route feasibility for many pedestrians. Mobile range sensing captured pedestrian routes, and a processing chain identified steps, ramps, level changes and the presence of handrails, recording their dimensions. Field verification confirmed detection reliability. A substantial share of level changes exceeding the accessible threshold lacked any handrail, and their spatial distribution was concentrated on connections between residential terraces and the main street network.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":202
+  },
+  {
+    "text":"Ground-level radiometric measurement of shade quality along pedestrian arcades. Not all shade is equally effective, since reflected and emitted radiation from surrounding surfaces continues to load pedestrians. Net radiometers and globe thermometers were deployed at pedestrian height beneath arcades, tree canopies and fabric canopies along the same street. Mean radiant temperature was computed for each shading type across clear summer days. Tree canopies outperformed built shading of equivalent geometric coverage, and the differential was attributed to lower surface temperatures of vegetated surfaces.",
+    "label":"Sensing of walkability dimension",
+    "source":"adaptive",
+    "label_id":1,
+    "is_real":false,
+    "group_id":203
+  },
+  {
+    "text":"Simulation of evacuation flows in a transport terminal. Emergency planning requires understanding of egress behaviour under congestion. A microscopic pedestrian simulation model was calibrated with published fundamental diagrams and applied to a terminal layout under several incident scenarios. Sensitivity analysis explored the influence of pre-movement time distributions and exit availability. Results identified bottleneck locations and informed proposed layout modifications; no field observation was conducted.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":204
+  },
+  {
+    "text":"Association between green space proximity and mental health outcomes. Access to green space has been linked to psychological wellbeing. This cohort analysis linked residential addresses to green space proximity computed from land cover databases and examined associations with validated mental health instruments over follow-up. Models adjusted for individual and area-level confounders. Proximity to green space was associated with modestly better outcomes, with associations stronger among lower-income participants.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":205
+  },
+  {
+    "text":"Automated litter detection from vehicle imagery for street cleansing operations. Efficient allocation of cleansing resources requires knowledge of where waste accumulates. Imagery collected from municipal service vehicles was processed with a detection model to identify litter, fly-tipping and overflowing bins along carriageways. Detections were aggregated by route and compared with existing complaint-driven scheduling. The system enabled reallocation of cleansing rounds and reduced repeat complaints in the pilot district.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":206
+  },
+  {
+    "text":"Association between neighbourhood environment perceptions and self-reported walking in older adults. Perceived environment is an established correlate of walking behaviour. This cross-sectional survey administered a validated neighbourhood environment scale together with a physical activity questionnaire to community-dwelling older adults. Associations between perceived attributes and reported walking for transport and recreation were estimated with regression models adjusting for demographic characteristics. Perceived safety from traffic and access to destinations were most strongly associated with transport walking.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":207
+  },
+  {
+    "text":"Segmenting street-level imagery to assess weather protection along pedestrian routes. Continuous shelter influences walking in both hot and rainy climates. This study segmented street-level images to detect arcades, canopies, awnings and covered walkways along pedestrian routes in a subtropical city, computing the proportion of each route length under cover. Automated estimates were validated against field observation on sampled routes. Coverage was highly uneven, with continuous protection largely confined to commercial cores while residential connectors remained fully exposed.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":208
+  },
+  {
+    "text":"Estimating pedestrian-level wind conditions with distributed anemometry in a high-rise district. Wind discomfort can render otherwise attractive pedestrian spaces unusable. Compact ultrasonic anemometers were installed at pedestrian height at 24 locations across a high-rise district and recorded continuously for twelve months. Measured gust equivalent mean speeds were classified against established comfort criteria. Several plaza locations exceeded discomfort thresholds for more than 20 percent of daylight hours, and measurements were used to validate previously published simulation results for the same district.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":209
+  },
+  {
+    "text":"Automated detection of pavement surface defects on urban footways using image analysis. Surface defects create trip hazards and reduce comfort. Images captured by a pedestrian-borne camera rig along 55 km of footways were analysed with a segmentation model trained to detect cracking, uplift, missing units and ponding. Detection performance was validated against a manual condition survey. Defect density was strongly associated with tree root proximity and with footway age, and results supported prioritisation of maintenance works.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":210
+  },
+  {
+    "text":"Instrumented walking audits combining georeferenced video and environmental logging in a tropical city. Conventional audit instruments are labour-intensive and rarely repeated. This study developed a wearable rig combining a chest-mounted camera, GNSS receiver and compact temperature, humidity and sound sensors, carried by auditors along predetermined routes. Video frames were post-processed to code sidewalk condition, shade and obstruction while environmental channels supplied continuous comfort variables. The integrated protocol reduced audit time per kilometre by 60 percent relative to paper-based auditing.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":212
+  },
+  {
+    "text":"Wearable heart rate variability sensing during walking in contrasting urban settings. Physiological response provides an objective complement to self-reported evaluation of walking environments. Participants completed matched-length walking routes through a busy arterial corridor and a residential street while wearing chest-mounted electrocardiography sensors. Heart rate variability indices were computed per segment and matched to streetscape attributes derived from image segmentation. Reduced parasympathetic indices were consistently observed on segments with high traffic exposure and low vegetation.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":213
+  },
+  {
+    "text":"Panoramic image segmentation for measuring visual permeability and enclosure in residential streets. Perceived spaciousness of a street influences the pleasantness of walking. This study computed enclosure ratio, sky proportion and lateral visual openness from segmented panoramic images captured along residential streets in a temperate city. Metrics were compared with manual measurement from architectural sections at sampled locations. Derived enclosure values distinguished pre-war and post-war street typologies and correlated with resident ratings of street character.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":214
+  },
+  {
+    "text":"Depth camera assessment of step height and kerb geometry at pedestrian crossings. Kerb geometry determines whether a crossing is negotiable by users with reduced mobility. A handheld depth camera was used to capture the crossing geometry at 340 intersections, from which kerb height, ramp gradient and gutter depth were reconstructed. Measurements were compared with manual gauge readings on a validation subset, showing millimetre-level agreement. Nearly half of surveyed crossings exceeded the maximum permissible kerb height, and non-compliance was more frequent on secondary streets.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":215
+  },
+  {
+    "text":"Ultrasonic and optical sensing for continuous monitoring of footway obstruction in a historic centre. Temporary obstructions such as café terraces, delivery pallets and construction hoardings intermittently reduce walking space but are invisible to static inventories. A network of low-power ultrasonic and optical units was installed along a heritage street to detect lateral encroachment onto the footway at fifteen-minute intervals over six months. Detected obstruction width was validated against periodic manual measurement. Encroachment exceeded one metre during 19 percent of daytime hours, concentrated in the late afternoon.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":217
+  },
+  {
+    "text":"Estimating tree canopy cover from airborne lidar for municipal reporting. Canopy targets require consistent measurement. Airborne lidar acquired for a metropolitan area was processed to delineate canopy and compute cover fractions by administrative unit, with accuracy assessed against field plots. Trends across two acquisition epochs were reported. The workflow supports statutory canopy reporting and relies exclusively on airborne acquisition.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":218
+  },
+  {
+    "text":"Simulating pedestrian flows in a redesigned transport interchange. Design alternatives can be compared before construction. A microscopic pedestrian model was calibrated using published behavioural parameters and applied to alternative interchange layouts under forecast demand. Level of service, queue formation and transfer times were compared across alternatives. The preferred layout reduced modelled transfer times; field validation is proposed for the operational phase.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":219
+  },
+  {
+    "text":"Comparative evaluation of activity monitor placement in free-living conditions. Device placement affects measurement validity. Participants simultaneously wore monitors at wrist, hip and thigh during free-living conditions for one week, and outputs were compared for activity classification and intensity estimation. Agreement varied by activity type, with the largest discrepancies for cycling and stair climbing. Recommendations for placement selection in population studies are provided.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":220
+  },
+  {
+    "text":"Text mining of planning documents for references to active travel. Policy language shapes implementation. This study applies natural language processing to a corpus of local planning documents to identify and classify references to walking and cycling provision over two decades. Frequency and framing were compared across jurisdictions and periods. References increased substantially while specific commitments remained rare, and no environmental data were collected.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":221
+  },
+  {
+    "text":"Modelling flood risk to pedestrian networks using terrain and drainage data. Flooding disrupts pedestrian movement. Terrain models and drainage network records were used to simulate surface water accumulation under design rainfall scenarios, and results were intersected with the pedestrian network to identify segments likely to become impassable. No field measurement of flood conditions was conducted, and validation relied on historical incident reports.",
+    "label":"Not related",
+    "source":"adaptive",
+    "label_id":0,
+    "is_real":false,
+    "group_id":222
+  },
+  {
+    "text":"Detecting encroachment of informal commerce onto footways from street imagery. Informal trading occupies footway space in many cities, with consequences for pedestrian flow. Street imagery collected at multiple times of day was processed with a detection model trained to identify stalls, displayed goods and temporary structures within the footway envelope. Occupied width was estimated per segment and compared across time slices. Occupancy peaked in the late afternoon and reduced usable width below one metre on a third of commercial segments.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":223
+  },
+  {
+    "text":"Combining segmented imagery and portable sensing to profile school walking routes. Routes used by children merit specific assessment. A rig combining a chest camera, particulate sensor and sound level meter was carried along designated school routes, and imagery was segmented to record footway presence, width and crossing provision. Environmental channels supplied continuous exposure profiles. Routes with the highest measured pollutant and noise exposure were not those identified as hazardous by the existing school travel plan.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":224
+  },
+  {
+    "text":"Low-cost distributed sensing of footway occupancy in a market district. Understanding when footways become crowded supports management of shared space. Passive infrared and time-of-flight units were mounted at pedestrian height along footways in a market district and recorded occupancy at short intervals for six months. Counts were calibrated against synchronised video. Occupancy exceeded comfortable density thresholds during market hours on segments where stalls reduced usable width, quantifying a conflict previously reported only anecdotally.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":226
+  },
+  {
+    "text":"Automated recognition of pedestrian wayfinding signage from street-level imagery. Legible wayfinding supports independent walking, particularly for visitors and people with cognitive impairment. Street-level images were processed with a detection and text recognition pipeline to locate and read pedestrian wayfinding signs, mapping their density and continuity along principal routes. Detection performance was validated on site. Signage continuity broke down at district boundaries, where responsibility for provision was divided between authorities.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":227
+  },
+  {
+    "text":"Handheld spectroradiometry of paving and facade materials for pedestrian radiant load assessment. Material reflectance governs radiant load experienced by pedestrians. Spectral reflectance of paving units and facade finishes was measured in situ along a sample of streets, and albedo values were combined with measured geometry to estimate reflected shortwave load at pedestrian height. Estimates were compared with pyranometer readings at the same locations. Light-coloured facades in narrow streets produced measurably higher reflected load, offsetting part of the benefit of shading.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":228
+  },
+  {
+    "text":"Georeferenced audio recording for characterising acoustic diversity of pedestrian streets in a Mediterranean city. Acoustic environment contributes to whether a street is pleasant to walk. Binaural recorders carried along fixed routes captured continuous audio, from which psychoacoustic descriptors including loudness, sharpness and roughness were computed alongside conventional level metrics. Recordings were segmented and clustered. Streets dominated by human voices and water features clustered separately from traffic-dominated streets, and cluster membership predicted independently collected pleasantness ratings.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":229
+  },
+  {
+    "text":"Vision-based obstacle avoidance dataset for assistive navigation devices. Limited access to task-specific navigation data constrains development of lightweight assistive devices. This work introduces a procedurally generated environment providing paired colour and semantic segmentation streams with collision-aware annotations, together with baseline reinforcement learning agents. The dataset addresses the scarcity of collision examples in existing corpora and is intended to support development of haptic and auditory feedback devices for blind travellers.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":230
+  },
+  {
+    "text":"Mobile phone signalling data for estimating intercity travel demand. Understanding aggregate mobility patterns supports transport planning. Anonymised mobile network signalling records were processed to infer origin-destination flows between urban areas, with algorithms to distinguish residents from visitors and to assign trip purposes. Estimates were validated against household travel survey benchmarks. The approach provides continuous demand estimates at a fraction of the cost of conventional surveys.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":231
+  },
+  {
+    "text":"Street network morphology and urban form typologies across global cities. Comparative morphological analysis supports understanding of urban development patterns. This study computes network measures including intersection density, street length distribution, orientation entropy and circuity from open street network data for several hundred cities. Cities are clustered into typologies using these measures. Results reveal systematic regional differences in network structure and their relationship with the historical period of urban expansion.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":232
+  },
+  {
+    "text":"Point cloud processing for heritage facade documentation. Conservation of historic buildings requires accurate geometric records. Terrestrial laser scanning was used to capture facades along a protected street, and processing routines were developed to segment architectural elements and to detect deformation relative to reference geometry. Accuracy was assessed against total station measurements. The workflow supports condition monitoring and the preparation of conservation documentation.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":233
+  },
+  {
+    "text":"Wearable sensing of running biomechanics on outdoor surfaces. Reducing tendon loading during running may lower injury risk. Recreational runners completed outdoor trials on a concrete surface at controlled speeds while instrumented with inertial sensors and pressure insoles. Ground contact time was manipulated across conditions and resulting changes in estimated tendon force and cadence were analysed. Increasing ground contact time reduced peak estimated force but induced compensatory cadence changes.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":234
+  },
+  {
+    "text":"Crowd density estimation for event safety management using overhead cameras. Managing large gatherings requires real-time awareness of crowd conditions. Overhead cameras coupled with a density estimation network were deployed at a stadium concourse to produce continuous occupancy estimates. The system was validated against manual counts during three events. Alert thresholds were derived from published crowd safety guidance and integrated into the venue operations dashboard.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":235
+  },
+  {
+    "text":"Traffic sign detection and inventory from vehicle-mounted imagery. Maintaining accurate signage inventories is a costly obligation for road authorities. This work presents a detection and classification pipeline applied to imagery collected from a survey vehicle, identifying regulatory, warning and informational signs and assessing their retroreflectivity condition. Performance was evaluated on a manually annotated benchmark. The system supports automated updating of asset registers and identification of signs requiring replacement.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":236
+  },
+  {
+    "text":"Deep learning classification of building facade materials for energy retrofit prioritisation. Retrofit programmes require knowledge of the existing building stock that is often unavailable. Street-level images were processed with a classification model to identify facade materials, glazing ratios and apparent construction period for residential buildings. Predictions were validated against a sample of surveyed properties. The resulting stock characterisation was used to estimate retrofit potential and to prioritise intervention districts.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":237
+  },
+  {
+    "text":"Transit accessibility and station area development in a polycentric region. Coordinating land use with transit provision is central to sustainable regional planning. This study computes station area accessibility using network analysis of scheduled service data and parcel-level land use records. Development intensity around stations is compared across corridors and time periods. Results indicate that intensification has concentrated around a limited subset of stations, and policy implications for coordinating growth with service provision are discussed.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":238
+  },
+  {
+    "text":"Acoustic monitoring of bird communities in urban parks. Urban biodiversity monitoring benefits from automated methods. Autonomous recording units deployed across urban parks captured dawn chorus recordings over a breeding season, and species were identified with an acoustic classification model validated against expert annotation. Species richness was related to park size, vegetation structure and surrounding built density. Larger parks with structurally complex vegetation supported higher richness.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":239
+  },
+  {
+    "text":"Spatial analysis of green space provision inequity using administrative data. Equitable access to green space is a policy concern. Park polygons from municipal records were combined with population data at fine spatial resolution to compute provision and proximity measures for socioeconomic groups. Inequity indices were computed and compared across cities. Provision gaps were largest for high-density lower-income neighbourhoods, and the analysis relies entirely on administrative datasets.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":240
+  },
+  {
+    "text":"Evaluating a smartphone application for encouraging walking through gamification. Behaviour change applications are widely deployed but unevenly evaluated. This randomised trial allocated participants to a gamified walking application or a control application without game elements, with step counts recorded by the application over twelve weeks. Retention and step count trajectories were compared. Modest short-term gains attenuated after week six, and engagement declined steeply across both arms.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":241
+  },
+  {
+    "text":"Comparison of open and proprietary road network datasets for routing applications. Routing quality depends on underlying network data. This study compares completeness, positional accuracy and attribute richness of open and proprietary road network datasets across several regions, using reference survey data. Differences in coverage were concentrated in recently developed areas and in service roads. Implications for routing applications and for reproducibility of accessibility research are discussed.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":242
+  },
+  {
+    "text":"Wearable sensing of occupational physical workload in construction. Excessive workload contributes to musculoskeletal disorders. Workers wore inertial sensors and heart rate monitors during shifts, and posture, movement intensity and cardiovascular strain were derived. Task categories were annotated by observers. Several task categories exceeded recommended strain thresholds, supporting task rotation recommendations.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":243
+  },
+  {
+    "text":"Longitudinal analysis of urban expansion using historical aerial photography. Understanding growth patterns supports planning policy evaluation. Historical aerial photographs spanning six decades were orthorectified and classified to delineate built-up extent at ten-year intervals. Growth metrics including compactness and fragmentation were computed. The analysis identifies distinct expansion phases and relates them to successive regional planning frameworks.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":244
+  },
+  {
+    "text":"Detection of illegal parking from fixed cameras for enforcement support. Unauthorised parking affects traffic operation and enforcement resources. Fixed cameras coupled with detection and plate recognition were deployed at enforcement hotspots and produced continuous records of violations by time and duration. Detections were validated against officer records. The system supported redeployment of enforcement patrols and reduced average violation duration in treated locations.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":245
+  },
+  {
+    "text":"Assessing green roof cooling potential with rooftop instrumentation. Green roofs are promoted as an urban heat mitigation measure. Paired instrumented plots on conventional and vegetated roofs recorded surface and air temperature, substrate moisture and energy flux over two summers. Differences in surface temperature and sensible heat flux were quantified across weather conditions. Cooling benefit was greatest under high radiation and adequate moisture, with implications for irrigation scheduling.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":246
+  },
+  {
+    "text":"Machine learning prediction of traffic congestion from loop detector data. Congestion forecasting supports network management. Loop detector records across an arterial network were used to train recurrent models predicting occupancy and speed at multiple horizons. Model performance was compared with historical average and autoregressive baselines. Gains were largest during incident conditions, and the models were integrated into an operational dashboard for the traffic management centre.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":247
+  },
+  {
+    "text":"Household survey of barriers to walking among older residents. Understanding reported barriers supports targeted intervention. A stratified household survey collected reports of walking frequency, destinations and perceived barriers among residents aged over 65 in four districts. Responses were analysed with ordered models controlling for health status and car access. Fear of falling and absence of resting places were the most frequently cited barriers; no physical measurement of the environment accompanied the survey.",
+    "label":"Not related",
+    "source":"expansion",
+    "label_id":0,
+    "is_real":false,
+    "group_id":248
+  },
+  {
+    "text":"Stated preference assessment of pedestrian comfort in a South Asian city. Understanding how pedestrians perceive their environment is essential for prioritising interventions. A stated preference experiment presented respondents with tailored street-level scenes varying in sidewalk provision, traffic conditions and encroachment. More than two thousand participants rated perceived exposure and comfort, and sociodemographic and travel behaviour data were collected. Multivariate models related scene attributes to perception outcomes. Absence of sidewalks and encroachment by two-wheelers were the strongest negative contributors.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":249
+  },
+  {
+    "text":"Agent-based simulation of shade-seeking pedestrian movement. Pedestrians adapt their routes to avoid solar exposure, which conventional shortest-path models ignore. This paper presents an agent-based model in which agents weight route segments by simulated shadow availability derived from building geometry and solar position. Scenario experiments explore how added tree planting alters aggregate route distributions. Model outputs are compared with synthetic demand profiles; empirical validation with observed pedestrian trajectories is identified as future work.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":250
+  },
+  {
+    "text":"Multi-objective optimisation of tree and building configurations in street canyons. Pedestrian conditions in street canyons depend on the interaction of thermal stress and pollutant dispersion, which often produce design trade-offs. Computational fluid dynamics simulations were performed for varying aspect ratios, solar times, canopy sizes and leaf area densities. A composite environmental quality metric was defined and a multi-objective optimisation identified configurations balancing thermal and air quality objectives. No field instrumentation was employed; validation relied on published wind tunnel datasets.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":251
+  },
+  {
+    "text":"Modelling urban heat island intensity from meteorological station networks and land cover. Understanding heat island dynamics informs adaptation planning. This study combines records from a regional meteorological station network with satellite-derived land cover fractions to model canopy layer heat island intensity across a metropolitan region. Regression and machine learning specifications are compared. Impervious fraction and distance to water bodies were the dominant predictors, and model outputs were used to delineate priority adaptation zones.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":252
+  },
+  {
+    "text":"Public participation geographic information systems for identifying valued walking routes. Resident knowledge can complement technical assessment. An online mapping platform invited residents to identify routes they valued and to annotate perceived problems. Contributions were analysed spatially and thematically, and compared against municipal priority networks. Substantial divergence was found, with residents emphasising informal paths absent from official networks; no instrumentation or automated measurement was involved.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":253
+  },
+  {
+    "text":"Predicting Airbnb listing prices from neighbourhood visual characteristics. Short-term rental prices reflect locational attributes that are hard to quantify. Visual features extracted from street-level imagery with a pretrained network were combined with listing attributes and neighbourhood indicators in gradient boosting models. Models including visual features reduced prediction error relative to structural attributes alone, and interpretation indicated that streetscape greenery and building condition contributed most.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":255
+  },
+  {
+    "text":"Estimating origin-destination flows from public transport smartcard records. Understanding travel patterns supports service planning. Smartcard transaction records were processed with destination inference algorithms and validated against a sample of surveyed journeys. Temporal profiles and transfer patterns were derived at stop level. The resulting matrices support timetable adjustment and were compared against previous survey-based estimates, showing systematic differences in off-peak periods.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":256
+  },
+  {
+    "text":"Virtual reality assessment of crossing decisions among older adults. Understanding decision making at crossings supports safety intervention design. Participants completed simulated road crossing tasks in an immersive virtual environment under varying traffic gap distributions and visual complexity. Decision latency, accepted gap size and collision incidence were recorded by the simulation. Older participants accepted smaller gaps under high visual complexity, and results are discussed in relation to training interventions; no measurement of real street environments was undertaken.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":257
+  },
+  {
+    "text":"Deep learning classification of land cover from multispectral satellite imagery. Accurate land cover mapping supports environmental monitoring. This study compares convolutional and transformer architectures for classification of multispectral satellite scenes across heterogeneous landscapes, using harmonised training samples and consistent evaluation protocols. Transfer learning from pretrained backbones is assessed. Results indicate modest gains from transformer architectures at higher computational cost, and class confusion persists between built-up and bare soil categories.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":258
+  },
+  {
+    "text":"Neighbourhood walkability and incidence of type 2 diabetes in a population cohort. Environmental context may influence metabolic risk. This population-based cohort linked administrative health records to residential postal codes and assigned neighbourhood walkability from an established composite index. Incident diabetes was ascertained from validated administrative case definitions over a twelve-year follow-up. Cox models adjusted for age, sex, income and comorbidity. Residents of the least walkable areas showed higher incidence, with the association stronger among recent immigrants.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":259
+  },
+  {
+    "text":"Semantic segmentation for autonomous driving scene understanding with adaptive weighting. Accurate scene parsing is required for safe autonomous driving. This paper introduces a segmentation architecture with skip connections and an adaptive class weighting scheme to improve recognition of underrepresented classes including road, sidewalk and vegetation. Evaluation on standard driving benchmarks demonstrates improved mean intersection over union relative to baseline architectures while maintaining inference speed suitable for onboard deployment.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":260
+  },
+  {
+    "text":"Automated pothole detection on carriageways using vehicle-mounted vibration sensing. Timely detection of carriageway defects reduces maintenance cost and vehicle damage. Accelerometers mounted on municipal fleet vehicles recorded vertical acceleration continuously, and a classification model identified pothole signatures from the vibration signal. Detections were georeferenced and compared with the existing inspection database. The approach identified defects several weeks earlier than scheduled inspection cycles across the pilot network.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":261
+  },
+  {
+    "text":"Estimating cycling demand from shared bicycle docking station records. Understanding demand supports network expansion decisions. Docking station records over three years were aggregated to hourly counts and modelled as a function of station attributes, weather and calendar effects. Spatial models accounted for correlation between neighbouring stations. Elevation and separated infrastructure availability emerged as significant predictors, and the calibrated model was used to prioritise candidate sites for new stations.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":262
+  },
+  {
+    "text":"Perceived neighbourhood environment and depressive symptoms in urban adults. Mental health is shaped by residential context. This cross-sectional analysis used a validated neighbourhood perception instrument together with a standardised depression scale administered to adults in three cities. Associations were estimated with multilevel models adjusting for individual and area-level covariates. Perceived safety and perceived aesthetics were both inversely associated with depressive symptoms, with the association attenuated but not eliminated after adjustment for social cohesion.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":263
+  },
+  {
+    "text":"Instrumented walking to characterise perceived and measured slope burden in a hillside settlement. Steep informal settlements pose particular walking challenges. Residents carried devices combining barometric altimetry, inertial sensing and satellite positioning during habitual trips while providing periodic effort ratings through a mobile prompt. Measured gradient and cumulative ascent were related to reported effort. Ratings rose sharply above a gradient threshold, and the identified threshold was used to prioritise locations for stairs and handrail installation.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":265
+  },
+  {
+    "text":"Measuring accessibility of transit stop approaches with mobile mapping. The last fifty metres to a transit stop frequently determine whether the trip is feasible. Mobile mapping surveyed approaches to 400 transit stops, from which footway presence, width, gradient, kerb transitions and shelter provision were extracted automatically. Attributes were combined into an approach quality score and validated against expert site assessment at sampled stops. Approach quality varied more within corridors than between them, indicating that stop-level rather than corridor-level intervention is required.",
+    "label":"Sensing of walkability dimension",
+    "source":"expansion",
+    "label_id":1,
+    "is_real":false,
+    "group_id":267
+  },
+  {
+    "text":"Bikeability assessment framework for an island city using multi-source data. Cycling-friendly environments are essential for sustainable mobility. This study develops a multi-scale bikeability framework combining network connectivity, gradient, facility separation and street-level visual attributes extracted from imagery. Indicators were weighted through expert elicitation and aggregated at three spatial scales. Application to an island city identified corridors where infrastructure provision diverges from latent demand estimated from shared bicycle trip records.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":268
+  },
+  {
+    "text":"Street-level environment and cyclists' route choice modelled from GPS trajectories and imagery. Understanding cyclist route preferences supports infrastructure planning. GPS trajectories from a bicycle-sharing system were map-matched to the cycling network, and street view imagery along candidate routes was segmented to quantify greenery, road surface and building presence. A path size logit model estimated the influence of these attributes on route choice. Cyclists showed a consistent preference for segments with higher vegetation and separated facilities, and were willing to accept longer distances to obtain them.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":269
+  },
+  {
+    "text":"Image-based measurement of frontage permeability and its association with observed pedestrian dwell. Ground-floor design shapes whether people linger in a street. Street-level imagery was segmented to compute glazing ratio, entrance density and setback along commercial frontages. In parallel, fixed cameras with automated tracking recorded pedestrian speed and stationary activity at the same locations. Segments with higher permeability exhibited significantly lower mean walking speed and higher stationary activity, linking a measured design attribute to observed use of the space.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":271
+  },
+  {
+    "text":"Continuous monitoring of pedestrian thermal exposure using a network of fixed street-level sensors. Fixed monitoring at pedestrian height remains rare despite the importance of microclimate for walking comfort. Compact stations measuring air temperature, humidity, wind and globe temperature were mounted on light poles at pedestrian height at 32 locations for eighteen months. Universal Thermal Climate Index series were computed and compared with the reference airport station. Differences of up to six degrees were observed between instrumented streets under identical synoptic conditions, and the network captured the onset and duration of local heat episodes with far greater fidelity than the reference site.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":272
+  },
+  {
+    "text":"Detection of obstructive street furniture and its effect on usable footway width. Street furniture placed without regard to pedestrian clearance reduces usable width and forces detours. Mobile imagery and range data were fused to detect poles, cabinets, bins, planters and advertising structures within the footway envelope, and each object was located relative to the footway edges. Residual clear width was computed continuously. Objects reduced clear width below the accessible minimum along 14 percent of the surveyed network, with utility cabinets accounting for the largest share of critical reductions.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":273
+  },
+  {
+    "text":"Quantifying lighting uniformity on residential footways with mobile luminance imaging. Mean illuminance is a poor predictor of night-time reassurance because uneven distribution produces dark pockets. A calibrated luminance imaging system was carried along residential footways after dark, producing spatially continuous luminance fields. Uniformity ratios, maximum-to-minimum contrast and glare indices were computed per segment. Measured uniformity was weakly correlated with luminaire spacing recorded in the municipal asset register, indicating that inventory data alone cannot substitute for measurement.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":274
+  },
+  {
+    "text":"Assessing pedestrian route gradient and step exposure using barometric and inertial sensing. Vertical effort influences route feasibility, especially for older pedestrians, but is poorly represented in flat network datasets. Volunteers walked designated routes carrying devices combining barometric altimeters, inertial sensors and satellite positioning. Segment-level gradient profiles and step counts were reconstructed and validated against survey-grade levelling on reference sections. The derived attributes were attached to the pedestrian network and used to generate effort-aware route alternatives that differed substantially from shortest-distance paths.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":275
+  },
+  {
+    "text":"Mapping perceived restorativeness of walking routes through combined imagery segmentation and in-situ ratings. Restorative quality is an under-measured component of the pleasurability of walking. Street imagery along candidate routes was segmented to quantify vegetation, water presence, visual complexity and sky openness, while participants walking the same routes provided geolocated ratings using a mobile application. A model relating visual descriptors to ratings was estimated and applied to unrated segments. Predicted restorativeness maps identified corridors whose potential was not reflected in existing green space designations.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":276
+  },
+  {
+    "text":"Automated detection of pedestrian signal and crossing aids from street imagery in a medium-sized city. Provision of crossing aids is a determinant of route feasibility, particularly for older pedestrians and people with sensory impairment. Street imagery covering all signalised intersections was processed with a detection model trained to identify pedestrian signal heads, push buttons, audible signal devices and tactile indicators. Model output was verified at a random sample of sites. Audible devices were present at only 12 percent of signalised crossings, and provision was significantly lower outside the central district.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":277
+  },
+  {
+    "text":"Estimating pedestrian shade provision using vehicle-mounted hemispherical imaging across seasons. Shade availability changes with foliage phenology, which single-date assessments cannot capture. Hemispherical images were captured at pedestrian height along fixed routes in leaf-on and leaf-off conditions using a vehicle-mounted rig. Canopy openness and projected shadow were computed for each condition and combined with solar geometry to estimate shade duration across the year. Seasonal variation was substantial on deciduous streets, and the resulting seasonal shade profiles were used to identify corridors where evergreen planting would extend usable shade.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":278
+  },
+  {
+    "text":"Detecting footway surface materials and their slip resistance from imagery and field testing. Surface characteristics affect both comfort and slip risk for pedestrians. Street-level imagery was classified to identify paving material across the footway network, and field pendulum tests measured slip resistance for each material class under dry and wet conditions. Classified material maps were combined with the measured resistance values to produce a network-wide slip risk indicator. Validation of the material classifier against site inspection reached high agreement, and polished stone surfaces in the historic centre emerged as the principal risk concentration.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":279
+  },
+  {
+    "text":"Segment-level noise exposure of pedestrians measured with body-worn dosimeters. Noise is consistently identified as a determinant of walking comfort but is rarely measured at the scale of the individual street segment. Participants carried calibrated personal noise dosimeters and GNSS loggers during their habitual walking trips over two weeks. Recordings were segmented by street and summarised as equivalent and percentile levels. Exposure varied by more than fifteen decibels between parallel routes of similar length, and participants systematically reported lower comfort on segments where measured levels exceeded a threshold identified from the data.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":280
+  },
+  {
+    "text":"Continuous kerb height profiling along pedestrian routes using vehicle-mounted range sensing. Kerb transitions determine whether a route is usable by wheelchair users and people with reduced mobility, yet transitions are documented only sporadically. A vehicle-mounted range sensing platform surveyed 120 km of streets, and an extraction routine identified kerb transitions at every driveway, crossing and access point. Height, ramp presence and lateral gradient were computed for each transition and compared with regulatory limits. Manual verification at 250 transitions indicated agreement within two centimetres. Nearly a third of transitions were classified as non-compliant, and non-compliance was concentrated on routes serving older housing.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":281
+  },
+  {
+    "text":"A review of measurement approaches for pedestrian environments. Assessment of pedestrian environments has diversified considerably, encompassing composite geospatial indices, field audit instruments, perceived environment scales and, more recently, image-based approaches. This review synthesises published instruments, describes their conceptual foundations and compares the attributes each captures. Emerging technologies including street-level imagery, lidar and wearable sensing are discussed as directions for future measurement, but no primary data collection or instrumentation was undertaken in this review.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":282
+  },
+  {
+    "text":"Detecting outdoor alcohol marketing in urban environments using panoramic imagery. Controls on alcohol marketing are a public health intervention of growing interest. This study compared the efficiency of remote coding of panoramic street imagery against on-street observation by trained teams for recording alcohol sale points, advertising and promotional materials along sampled street stretches. Agreement between methods was assessed for each data category. Remote coding achieved comparable results for permanent signage but underperformed for temporary displays.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":285
+  },
+  {
+    "text":"Estimating neighbourhood carbon emissions from street view imagery. This work explores whether visual characteristics of urban streets carry information about neighbourhood-level carbon emissions. Street view images were processed with a segmentation network and derived visual indicators were combined with building and demographic attributes in gradient boosting models. Emissions inventories at neighbourhood level served as the target variable. Predictive performance was moderate, and interpretation indicated that building density and vehicle presence dominated the visual signal.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":286
+  },
+  {
+    "text":"Spatiotemporal parameters during overground walking in adults with lower limb impairment. Understanding walking mechanics informs clinical intervention. Participants completed overground walking trials at self-selected speed while instrumented with inertial measurement units at the pelvis and lower limbs. Step time, step length asymmetry and double support duration were extracted and compared between impaired and control groups. Significant asymmetries were observed and were associated with self-reported mobility limitation scores.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":288
+  },
+  {
+    "text":"Validity of a wearable activity monitor in adults using walking aids. Activity monitors are increasingly used in clinical populations but their accuracy in users of ambulation aids is unclear. Sixteen adults who regularly use a cane completed standardised walking trials over several indoor and outdoor surfaces with monitors mounted on the leg and on the cane. Device sensitivity and cadence thresholds were adjusted during a calibration phase. Step count accuracy was compared against video-based manual counts. Leg-mounted placement outperformed cane mounting across all surfaces.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":289
+  },
+  {
+    "text":"Injury severity of crashes involving older road users at urban intersections. This study analyses factors associated with injury severity in crashes involving older road users. Police-reported crash records over a ten-year period were linked with intersection geometry attributes from municipal asset inventories and with traffic volume estimates. Ordered response models with interpretable machine learning diagnostics were estimated to identify contributing factors. Lighting conditions, turning movements and approach speed limits emerged as the strongest correlates of severe outcomes.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":290
+  },
+  {
+    "text":"Pedestrian crash exposure modelling with geographically weighted regression. Reliable exposure measures are needed for pedestrian safety analysis. This study develops surrogate exposure models for urban road networks using sociodemographic attributes, land use categories and network geometric characteristics obtained from municipal databases. Several geographically weighted regression specifications were compared using goodness-of-fit and residual spatial autocorrelation criteria. The semiparametric specification performed best, and the resulting exposure estimates were used to normalise observed pedestrian crash frequencies across zones.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":291
+  },
+  {
+    "text":"Satellite-derived greenness and residential neighbourhood characteristics. This analysis characterises neighbourhood vegetation using multispectral satellite imagery and vegetation indices computed at multiple buffer radii around residential addresses. Temporal composites were generated to reduce cloud and seasonal effects. Associations between derived greenness and area-level socioeconomic indicators were examined. Results show persistent inequalities in vegetation exposure, with the magnitude of the association depending strongly on the buffer radius selected.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":292
+  },
+  {
+    "text":"Airborne lidar voxel analysis of streetscape features at national scale. This study investigates extraction of streetscape features from high-density airborne lidar collected under a national mapping programme. Point clouds were classified and aggregated into three-dimensional voxel zones bounded by proximal polygons. Buildings, street trees, walls, poles and overhead lines were quantified volumetrically. The work demonstrates that denser acquisition standards permit detection of smaller features than previously possible, and proposes descriptive statistics for characterising streetscapes in three dimensions from aerial acquisition alone.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":293
+  },
+  {
+    "text":"Visual servoing control for an autonomous wheelchair following tactile paving. This study addresses the urban mobility problem of people with walking disabilities by proposing a control system for an autonomous wheelchair. A linearised wheelchair model is developed and image-based visual servoing is introduced to track yellow tactile paving. Reference paths are generated using robust vanishing point estimation and Hough line detection. Simulation and prototype experiments demonstrate stable tracking performance under varying illumination and partial occlusion of the tactile surface.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":294
+  },
+  {
+    "text":"Tightly-coupled GNSS and lidar odometry for delivery robot mapping in sidewalk environments. Accurate localisation is essential for autonomous last-mile delivery. This work fuses uncertainty-aware GNSS observations with lidar odometry to reduce trajectory drift when mapping extensive sidewalk networks. A factor graph formulation weights GNSS constraints according to estimated multipath severity. Experiments across urban districts show reduced accumulated error and improved global consistency of the resulting point cloud maps compared with lidar-only odometry.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":295
+  },
+  {
+    "text":"Real-time sidewalk and road segmentation for autonomous mobile robot navigation. Sidewalk delivery robots must distinguish traversable from non-traversable surfaces in real time. This paper presents a parallelised lidar processing pipeline integrated within a robot operating framework, achieving processing rates above 20 Hz on embedded hardware. Ground plane extraction, kerb detection and surface classification are performed sequentially. Evaluation on public benchmarks and on data collected by the robot platform demonstrates improved precision over prior approaches while reducing computational load.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":296
+  },
+  {
+    "text":"Micromobility rider compliance monitored with roadside cameras and machine learning. Growth in shared and private e-scooter use has raised concerns about rider behaviour. Traffic cameras at eight urban sites captured more than 600,000 observations of riders over two years, processed with a detection and classification pipeline. Helmet use, riding speed and footway incursion were coded automatically and verified on a manual subsample. Compliance with helmet requirements was low and declined over the study period, while speeds exceeded posted limits at a majority of observed sites.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":297
+  },
+  {
+    "text":"Crowdsourced imagery for auditing footpath provision in rapidly urbanising areas. Official pedestrian infrastructure records are scarce in many rapidly growing cities. This study used geotagged crowdsourced street photographs, processed with a fine-tuned classifier, to assess the presence, material and continuity of footpaths across peri-urban districts. Model outputs were compared with an independent field audit of 400 segments, yielding substantial agreement. Results showed that footpath provision declined sharply beyond the formal city boundary, and the method offers a low-cost alternative where commercial panoramic imagery is unavailable.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":298
+  },
+  {
+    "text":"Development of a network-based walkability scoring system for a metropolitan region. Existing area-based walkability measures provide coarse spatial resolution and treat all residents identically. This paper proposes a scoring system in which nodes of the road network, rather than administrative units, serve as the unit of analysis. Scores combine intersection density, destination counts within network buffers, and slope derived from a digital elevation model. The approach is demonstrated for a metropolitan region and compared against a conventional area-based index. Results show substantially finer spatial differentiation, particularly at neighbourhood edges.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":299
+  },
+  {
+    "text":"Objectively measured sleep and residential walkability among adult women. Sleep is influenced by environmental context. Participants in a prospective cohort wore wrist actigraphy devices for one week and carried GPS loggers to characterise mobility beyond the residential address. Walkability was obtained from an existing national index and assigned both to home location and to GPS-derived activity space. Associations between walkability and sleep duration and efficiency were examined with mixed models. Activity-space walkability showed weak associations with sleep efficiency, while residential walkability showed none after adjustment.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":300
+  },
+  {
+    "text":"Built environment exposure and body mass index trajectories in children. Childhood obesity is influenced by the environments in which children live. Using longitudinal data from a national cohort, this study examined associations between changes in neighbourhood built environment characteristics and trajectories of body mass index and waist circumference. Environmental exposures were derived from administrative land use and road network databases linked to residential addresses. Anthropometric outcomes were measured biennially by trained assessors. Growth curve models indicated that children experiencing increases in destination accessibility showed slower increases in body mass index.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":301
+  },
+  {
+    "text":"Pedestrian gaze behaviour in commercial streets recorded with mobile eye tracking. Understanding which streetscape elements attract visual attention supports design of more engaging pedestrian environments. Participants walked instrumented routes wearing mobile eye-tracking glasses while their gaze was mapped onto segmented panoramic imagery of the same corridors. Fixation duration was aggregated by streetscape element class. Vegetation, shopfront displays and other pedestrians accounted for the majority of fixations, while blank walls and parked vehicles received disproportionately little attention despite occupying large visual angles.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":304
+  },
+  {
+    "text":"Automated assessment of streetscape maintenance and visual disorder from street-level images. Perceived attractiveness of walking environments is influenced by maintenance cues such as litter, graffiti, damaged surfaces and derelict frontages. A multi-label classifier was trained on annotated street-level images to detect these cues and to produce a disorder score for each segment. Agreement with trained human auditors reached a kappa of 0.72. Applied citywide, the method revealed strong spatial clustering of disorder and enabled repeated measurement across two image vintages, allowing change detection over a four-year interval.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":306
+  },
+  {
+    "text":"Eye-level greenery and visual enclosure measured from panoramic street imagery. Overhead vegetation indices poorly represent the greenery actually visible to a pedestrian. This study processed 180,000 panoramic images with a segmentation network to compute green view index, sky view factor and building enclosure at eye level for every street segment in a dense district. Indicators were validated against on-site observer ratings at 150 locations. Eye-level greenery correlated only weakly with canopy cover derived from overhead sources, confirming that pedestrian-perspective measurement captures a distinct attribute of the walking environment.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":307
+  },
+  {
+    "text":"Surface temperature of paving materials measured with pedestrian-height thermal imaging. Radiant heat from paving contributes to discomfort during summer walking but is not captured by air temperature alone. A tripod-mounted thermal camera recorded surface temperatures of different paving materials along footpaths at hourly intervals across clear summer days. Materials were classified from co-registered visible images. Dark impervious surfaces exceeded light permeable pavers by up to 15 degrees at midday, and the measured differentials were incorporated into a route-level heat exposure indicator.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":308
+  },
+  {
+    "text":"Acoustic characterisation of walking environments through mobile sound level measurement and image analysis. Noise is a recognised component of pedestrian comfort yet is rarely incorporated in walkability assessment. Calibrated sound level meters were carried along pedestrian routes while synchronised imagery was segmented to describe facade continuity, vegetation and street width. Measured equivalent sound levels were modelled from the visual descriptors, allowing extrapolation to unmeasured segments. The model explained a substantial share of variance, and predicted quiet corridors coincided with locations that pedestrians independently rated as restorative.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":309
+  },
+  {
+    "text":"Personal exposure sensing of particulate matter along alternative pedestrian routes. Air quality shapes the healthfulness of walking but is usually inferred from sparse regulatory monitors. Volunteers carried calibrated low-cost particulate sensors and GNSS loggers along paired route alternatives between the same origins and destinations. Concentrations were aggregated by street segment and compared against traffic volume and street geometry. Routes through interior streets showed concentrations 28 percent lower than arterial alternatives of comparable length, demonstrating that route-level exposure differences are substantial and measurable.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":310
+  },
+  {
+    "text":"Automated extraction of sidewalk longitudinal and cross slope from mobile laser scanning. Compliance of pedestrian infrastructure with accessibility standards is rarely verified at city scale because manual slope measurement is slow and inconsistent. We deployed a vehicle-mounted mobile laser scanner across 84 km of urban streets and developed a segmentation routine that isolates sidewalk surfaces from the resulting point cloud. Longitudinal grade, cross slope and clear width were computed at one-metre intervals and compared against regulatory thresholds. Validation against manual inclinometer readings on 120 reference segments showed mean absolute errors below 0.4 percent. The resulting inventory identified 3,100 non-compliant segments concentrated in older districts.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":311
+  },
+  {
+    "text":"Detecting traffic exposure at pedestrian level using roadside sensing and image analysis. Pedestrian comfort and safety depend on proximity and speed of adjacent motor traffic. Roadside radar units recorded vehicle speeds and volumes at 42 street segments while street imagery was segmented to measure carriageway width, buffer presence and parking configuration. Combining the two data sources produced a segment-level traffic exposure indicator. Segments lacking any physical buffer showed exposure values three times higher than those with planted verges, and the indicator aligned with pedestrian counts observed at the same locations.",
+    "label":"Sensing of walkability dimension",
+    "source":"dataset",
+    "label_id":1,
+    "is_real":false,
+    "group_id":312
+  },
+  {
+    "text":"Walkability of historic city centres under climate change scenarios. This study defines a methodology to compute a walkability index for tourist cities and to project its evolution under climate scenarios. The index combines street network connectivity, slope, land use diversity and shading potential derived from building footprints and cadastral records. Projected temperature and humidity from regional climate models were used to adjust a comfort component of the index for mid-century and end-of-century horizons. Application to three heritage cities shows a pronounced decline of summer walkability, concentrated in unshaded open squares.",
+    "label":"Not related",
+    "source":"dataset",
+    "label_id":0,
+    "is_real":false,
+    "group_id":313
+  }
+]

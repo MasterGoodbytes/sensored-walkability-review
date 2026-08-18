@@ -1,122 +1,370 @@
 [
   {
-    "text": "The system architecture was compared against transformer-based models like BERT and GPT. However, no generative models were applied in the final deployment.",
+    "text": "Our literature review discusses LiDAR and street view imagery as promising tools for sidewalk auditing, but the assessment reported here was conducted entirely through manual field visits by trained observers.",
     "label": "Not related"
   },
   {
-    "text": "We reviewed LLM-based solutions such as ChatGPT but opted for a symbolic rule-based approach for decision-making.",
+    "text": "Although computer vision approaches are cited in the background section, walkability in this study was operationalized using a GIS-based index of intersection density and land use mix.",
     "label": "Not related"
   },
   {
-    "text": "The emergency planning module uses a diffusion model to generate synthetic pedestrian flows under various hazard conditions.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "Although the term GAN appears in our keyword list, this study does not use generative models in any part of the methodology.",
+    "text": "We compare our findings with previous street view based studies, however no imagery was processed and no sensor data were collected in this work.",
     "label": "Not related"
   },
   {
-    "text": "A GAN was trained to synthesize traffic flow scenarios to improve training of traffic prediction networks.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "A graph attention model is used to match address segments hierarchically. The model is compared to LLMs but does not generate any content.",
+    "text": "Future work will explore wearable sensors to capture pedestrian thermal stress; the present paper reports only a questionnaire-based comfort survey.",
     "label": "Not related"
   },
   {
-    "text": "Using a VAE, we created synthetic building layouts to test urban planning algorithms under varying density constraints.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "To enhance sensor fault detection, a transformer model was trained using supervised learning without generative capabilities.",
+    "text": "The keywords include semantic segmentation, yet the analysis relies exclusively on municipal sidewalk inventory records provided by the city.",
     "label": "Not related"
   },
   {
-    "text": "A diffusion model was employed to simulate post-earthquake structural risk across city zones. The synthetic outputs were used in resource allocation planning.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "The proposed model incorporates positional encodings similar to those in Transformers, but it is a classification model for energy load forecasting.",
+    "text": "Deep learning is mentioned as a possible extension, but sidewalk width in this study was measured with a measuring wheel during field audits.",
     "label": "Not related"
   },
   {
-    "text": "The system architecture was compared against transformer-based models like BERT and GPT. However, no generative models were applied in the final deployment.",
+    "text": "While GPS tracking is discussed as an alternative, participants reported their walking routes using paper travel diaries.",
     "label": "Not related"
   },
   {
-    "text": "We reviewed LLM-based solutions such as ChatGPT but opted for a symbolic rule-based approach for decision-making.",
+    "text": "Street view imagery is proposed in our discussion as a scalable option; the pedestrian crossing inventory presented here was compiled from planning department drawings.",
     "label": "Not related"
   },
   {
-    "text": "The emergency planning module uses a diffusion model to generate synthetic pedestrian flows under various hazard conditions.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "Although the term GAN appears in our keyword list, this study does not use generative models in any part of the methodology.",
+    "text": "Accelerometers recorded participants' daily step counts, while neighbourhood walkability was assigned from a pre-existing composite index based on census data.",
     "label": "Not related"
   },
   {
-    "text": "A GAN was trained to synthesize traffic flow scenarios to improve training of traffic prediction networks.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "A graph attention model is used to match address segments hierarchically. The model is compared to LLMs but does not generate any content.",
+    "text": "Wrist-worn devices captured moderate-to-vigorous physical activity; the built environment exposure was derived from administrative land use records rather than measured.",
     "label": "Not related"
   },
   {
-    "text": "Using a VAE, we created synthetic building layouts to test urban planning algorithms under varying density constraints.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "To enhance sensor fault detection, a transformer model was trained using supervised learning without generative capabilities.",
+    "text": "GPS loggers tracked participants' mobility to test whether residential walkability scores predict sleep duration, with walkability taken from an existing regional dataset.",
     "label": "Not related"
   },
   {
-    "text": "A diffusion model was employed to simulate post-earthquake structural risk across city zones. The synthetic outputs were used in resource allocation planning.",
-    "label": "GenAI used for smart city application"
-  },
-  {
-    "text": "The proposed model incorporates positional encodings similar to those in Transformers, but it is a classification model for energy load forecasting.",
+    "text": "We used smartphone accelerometry to quantify ambulation in older adults and linked it to walkability tertiles obtained from a published index.",
     "label": "Not related"
   },
   {
-    "text": "While our literature review included diffusion models and LLMs, the model we developed is based entirely on decision trees and rule-based logic.",
+    "text": "Street view images were processed with convolutional networks to predict residential property prices across the metropolitan area.",
     "label": "Not related"
   },
   {
-    "text": "The transformer architecture is mentioned in our discussion of future directions, but this study applies no neural network models.",
+    "text": "A vehicle-mounted camera and deep learning pipeline were used to estimate neighbourhood carbon emissions from facade characteristics.",
     "label": "Not related"
   },
   {
-    "text": "A graph-based framework was evaluated alongside generative methods like GANs, but our final approach is non-generative.",
+    "text": "Panoramic imagery was segmented to detect outdoor advertising density for a study of tobacco marketing exposure.",
     "label": "Not related"
   },
   {
-    "text": "We used a CNN to detect traffic anomalies; diffusion models were only briefly explored in background research.",
+    "text": "Semantic segmentation of street imagery was applied to classify architectural styles for heritage documentation purposes.",
     "label": "Not related"
   },
   {
-    "text": "An LLM was included in the comparison table but not in the experimental pipeline or results.",
+    "text": "Pedestrian thermal comfort in the street canyon was estimated through computational fluid dynamics simulation under varying aspect ratios; no field measurements were taken.",
     "label": "Not related"
   },
   {
-    "text": "The model generates synthetic air pollution maps using a VAE trained on historical sensor data.",
-    "label": "GenAI used for smart city application"
+    "text": "An agent-based model reproduced pedestrian flows along the promenade using synthetic demand, without any empirical sensor observation.",
+    "label": "Not related"
   },
   {
-    "text": "We fine-tuned a transformer-based LLM to generate hazard response plans for different urban zones.",
-    "label": "GenAI used for smart city application"
+    "text": "Microclimate conditions along the walking route were modelled with ENVI-met; validation against on-site instruments is left for future work.",
+    "label": "Not related"
   },
   {
-    "text": "To generate synthetic crime reports for training, we used GPT-style autoregressive modeling.",
-    "label": "GenAI used for smart city application"
+    "text": "Respondents rated a set of street-level photographs in a stated preference experiment to elicit perceived safety; no automated image analysis was performed.",
+    "label": "Not related"
   },
   {
-    "text": "A GAN was used to synthesize crowd movement patterns in emergency evacuation simulations.",
-    "label": "GenAI used for smart city application"
+    "text": "Participants viewed rendered street scenes and answered comfort questionnaires; the images served as survey stimuli rather than as measurement data.",
+    "label": "Not related"
   },
   {
-    "text": "Synthetic satellite imagery was created using diffusion models to augment remote sensing datasets.",
-    "label": "GenAI used for smart city application"
+    "text": "LiDAR point clouds were used to detect sidewalk boundaries for the navigation stack of an autonomous delivery robot.",
+    "label": "Not related"
+  },
+  {
+    "text": "GPS traces from bike-sharing trips were combined with street view imagery to model cyclists' route preferences.",
+    "label": "Not related"
+  },
+  {
+    "text": "Inertial sensors recorded stride parameters of patients during a supervised corridor walking test in a rehabilitation clinic.",
+    "label": "Not related"
+  },
+  {
+    "text": "Roadside cameras monitored e-scooter riders' helmet compliance and speed at eight urban sites.",
+    "label": "Not related"
+  },
+  {
+    "text": "Airborne LiDAR was classified into voxel zones to quantify street furniture and vegetation volume across the city, using exclusively aerial acquisition.",
+    "label": "Not related"
+  },
+  {
+    "text": "Satellite imagery and NDVI were used to characterise neighbourhood greenness for an epidemiological analysis.",
+    "label": "Not related"
+  },
+  {
+    "text": "Street-level panoramic images were segmented with a deep network to measure sidewalk width, surface condition and the presence of curb ramps along 1,200 street segments.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Portable microclimate instruments carried along walking transects recorded air temperature, humidity and globe temperature to map pedestrian thermal comfort at the segment level.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Terrestrial laser scanning produced point clouds from which sidewalk cross-slope and clear width were extracted and compared against accessibility standards.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Wearable electrodermal and skin temperature sensors worn by walkers were combined with geolocated street attributes to identify locations of environmental discomfort.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "A vehicle-mounted camera dataset was annotated and used to train a detector for tactile paving continuity on urban sidewalks.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Sound level measurements collected along pedestrian routes were combined with segmented street imagery to model perceived acoustic comfort of walking environments.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Eye-tracking glasses recorded gaze behaviour of pedestrians walking through commercial streets, linking fixation patterns to segmented streetscape elements.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Low-cost particulate matter sensors carried by pedestrians characterised exposure along alternative walking routes through the city centre.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Fixed cameras with automated counting quantified pedestrian volumes before and after a sidewalk widening intervention on a commercial corridor.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Mobile lidar and street imagery were fused to detect obstacles, poles and temporary barriers obstructing the effective walking width of sidewalks.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Illuminance loggers carried along night-time walking routes measured lighting levels at pedestrian eye height and mapped underlit segments.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Panoramic imagery was processed to compute green view index and sky view factor at pedestrian eye level across a dense urban district.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Smartphone-mounted inertial sensors detected surface roughness and vibration along wheelchair and pedestrian paths to characterise pavement quality.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Street-level images were classified to inventory pedestrian crossing markings, signal presence and refuge islands across an entire municipality.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Thermal cameras mounted at pedestrian height recorded surface temperatures of paving materials to assess heat exposure along shaded and unshaded footpaths.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Deep learning applied to street view imagery quantified facade transparency, active frontages and street furniture as indicators of streetscape attractiveness.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "A backpack-mounted mobile mapping system captured point clouds used to derive longitudinal slope profiles of pedestrian routes for accessibility assessment.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Crowdsourced street-level photographs were segmented to detect sidewalk discontinuities and missing curb ramps in informal settlements.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Although the abstract of related work highlights mobile lidar for kerb inspection, our compliance assessment relied on a checklist completed on site by municipal inspectors.",
+    "label": "Not related"
+  },
+  {
+    "text": "Panoramic imagery is referenced throughout the introduction, yet greenery in this analysis was quantified from a municipal tree register.",
+    "label": "Not related"
+  },
+  {
+    "text": "The study protocol anticipated deploying microclimate sensors, but logistical constraints meant that only meteorological station records were ultimately used.",
+    "label": "Not related"
+  },
+  {
+    "text": "We benchmark against published computer vision pipelines; no images were acquired or processed for the present analysis.",
+    "label": "Not related"
+  },
+  {
+    "text": "Our conclusions call for wearable sensing of pedestrian stress, although the evidence presented derives entirely from focus group transcripts.",
+    "label": "Not related"
+  },
+  {
+    "text": "Sensor networks are described in the theoretical framework, while the walkability score reported here combines census density and network connectivity.",
+    "label": "Not related"
+  },
+  {
+    "text": "Semantic segmentation appears among the indexed keywords because the authors previously published such work; this paper is a policy analysis with no image data.",
+    "label": "Not related"
+  },
+  {
+    "text": "References to lidar-derived sidewalk inventories are made for comparison, yet our own measurements were obtained by tape measure at sampled locations.",
+    "label": "Not related"
+  },
+  {
+    "text": "Accelerometry is proposed as a follow-up avenue; walking exposure in this paper is self-reported through a seven-day recall diary.",
+    "label": "Not related"
+  },
+  {
+    "text": "Thigh-worn inclinometers distinguished sitting from walking postures, while neighbourhood walkability was extracted from an existing municipal geodatabase.",
+    "label": "Not related"
+  },
+  {
+    "text": "Continuous glucose monitors and wrist accelerometers were combined to study metabolic response to habitual walking, with environmental exposure taken from an established index.",
+    "label": "Not related"
+  },
+  {
+    "text": "Pedometers issued to participants recorded daily step totals for comparison across neighbourhoods classified by a previously validated walkability typology.",
+    "label": "Not related"
+  },
+  {
+    "text": "Smartphone GPS reconstructed activity spaces to estimate exposure to green space, with greenness values obtained from an existing satellite-derived layer.",
+    "label": "Not related"
+  },
+  {
+    "text": "Street imagery was segmented to estimate the socioeconomic status of neighbourhoods for a study of urban inequality.",
+    "label": "Not related"
+  },
+  {
+    "text": "A convolutional model applied to facade photographs predicted building construction year for cadastral record enrichment.",
+    "label": "Not related"
+  },
+  {
+    "text": "Roadside cameras counted heavy goods vehicles to calibrate a freight movement model for the metropolitan region.",
+    "label": "Not related"
+  },
+  {
+    "text": "Panoramic images were analysed to detect solar panel installations across residential districts for renewable energy planning.",
+    "label": "Not related"
+  },
+  {
+    "text": "Mobile lidar surveyed overhead clearance beneath bridges to support oversize vehicle routing.",
+    "label": "Not related"
+  },
+  {
+    "text": "A microscopic pedestrian simulation reproduced crowd densities on the redesigned square using calibrated behavioural parameters and no field instrumentation.",
+    "label": "Not related"
+  },
+  {
+    "text": "Radiant temperature along the proposed promenade was predicted with a solar geometry model; on-site verification is planned for a subsequent phase.",
+    "label": "Not related"
+  },
+  {
+    "text": "Noise levels along the pedestrian corridor were estimated with a standard traffic noise propagation model rather than measured.",
+    "label": "Not related"
+  },
+  {
+    "text": "Depth cameras mounted on a service robot detected kerb edges to prevent tipping during autonomous footway traversal.",
+    "label": "Not related"
+  },
+  {
+    "text": "Inertial sensors on shared e-bikes characterised road surface vibration along cycling corridors.",
+    "label": "Not related"
+  },
+  {
+    "text": "A wearable system recorded joint kinematics of participants walking on an instrumented laboratory walkway during a clinical assessment.",
+    "label": "Not related"
+  },
+  {
+    "text": "Vehicle-mounted lidar mapped lane geometry and road markings for high-definition map production.",
+    "label": "Not related"
+  },
+  {
+    "text": "Canopy cover over streets was derived exclusively from airborne laser scanning flown at 1,500 metres, with no ground-level acquisition.",
+    "label": "Not related"
+  },
+  {
+    "text": "Very high resolution satellite imagery was classified to delineate impervious surfaces across the metropolitan footprint.",
+    "label": "Not related"
+  },
+  {
+    "text": "Photographs of street scenes were shown to an expert panel that scored design quality; no automated processing of the imagery was carried out.",
+    "label": "Not related"
+  },
+  {
+    "text": "A discrete choice experiment used illustrated street cross-sections to elicit preferences for pavement widening among residents.",
+    "label": "Not related"
+  },
+  {
+    "text": "Street-level imagery was segmented to detect the presence, continuity and material of footways along the full municipal street network.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Handheld thermal and illuminance instruments recorded conditions at pedestrian height beneath arcades and in adjacent open sections of the same street.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "A pedestrian-borne camera and GNSS rig captured continuous footway imagery from which surface defects and vertical displacements were automatically detected.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Compact anemometers installed at pedestrian height quantified gust conditions across a windswept plaza throughout a full year.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Terrestrial laser scanning of pedestrian underpasses produced clearance and width profiles compared against accessibility requirements.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Body-worn electrodermal sensors recorded arousal along matched walking routes and responses were mapped to segment-level streetscape attributes.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Calibrated microphones carried during systematic soundwalks produced continuous equivalent sound level profiles for the pedestrian network.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Structured light scanning recovered the profile geometry of tactile guidance surfaces and identified interruptions along designated routes.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Infrared beam counters recorded footway volumes continuously before and after the installation of a new pedestrian crossing.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "A smartphone-mounted camera and inclinometer captured footway gradient and surface type along routes used by older residents.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Panoramic segmentation quantified blank wall extent, glazing ratio and doorway frequency along ground-floor frontages of the commercial core.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Portable particulate and nitrogen dioxide sensors carried along paired pedestrian routes quantified differences in exposure between arterial and interior alternatives.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Mobile mapping point clouds were processed to inventory benches, shelters and handrails available along pedestrian routes to health facilities.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Fisheye imaging at pedestrian height produced sky view factor estimates used to characterise solar exposure of footways across street orientations.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Wheel-mounted accelerometers on manual wheelchairs quantified surface-induced vibration along pavement types in the historic centre.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Fixed cameras with automated tracking recorded pedestrian crossing trajectories and waiting times at signalised and unsignalised intersections.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Vehicle-mounted imaging with segmentation detected temporary obstructions such as skips, scaffolding and parked vehicles encroaching on footways.",
+    "label": "Sensing of walkability dimension"
+  },
+  {
+    "text": "Ground-level thermal imaging recorded paving surface temperatures across shaded and exposed sections of a pedestrian boulevard through a summer day.",
+    "label": "Sensing of walkability dimension"
   }
 ]

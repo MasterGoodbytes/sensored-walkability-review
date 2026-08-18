@@ -10,7 +10,6 @@ config.json
 checkpoint*
 
 # Jupyter Notebooks save history
-*.py
 
 # Jupyter widgets
 .ipynb_checkpoints/
@@ -211,3 +210,42 @@ model/output
 model/output/*
 dump.json
 logs
+
+# Project-local work
+joao/
+.claude/settings.local.json
+.codex/
+.idea/
+.vscode/
+
+# Secrets and private configuration
+.env.*
+!.env.example
+!.env.template
+secrets.*
+.secrets/
+credentials*.json
+*.pem
+*.key
+
+# Generated model artifacts and experiment caches
+/model/cache/
+/model/**/output/
+/wandb/
+/mlruns/
+/runs/
+
+# Raw/private corpora and downloaded full texts
+/data/raw/
+/data/private/
+/fulltexts/
+
+# Local diagnostics and temporary files
+debug_*_out.txt
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini

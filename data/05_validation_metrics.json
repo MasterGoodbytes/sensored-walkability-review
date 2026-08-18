@@ -1,0 +1,115 @@
+{
+  "target_recall": 0.95,
+  "real_json_n": 100,
+  "real_json_n_positive": 46,
+  "embedding": {
+    "threshold": 0.39397454261779785,
+    "achieved_recall": 0.9565217391304348,
+    "wss_at_target": 0.19999999999999996,
+    "tn": 23,
+    "fp": 31,
+    "fn": 2,
+    "tp": 44,
+    "model": "sentence-transformers/all-mpnet-base-v2",
+    "anchor": "This article uses data from a sensor to measure walkability."
+  },
+  "zeroshot": {
+    "threshold": 0.04208773002028465,
+    "achieved_recall": 0.9565217391304348,
+    "wss_at_target": 0.08999999999999997,
+    "tn": 12,
+    "fp": 42,
+    "fn": 2,
+    "tp": 44,
+    "model": "MoritzLaurer/deberta-v3-large-zeroshot-v2.0-c",
+    "candidate_labels": [
+      "uses sensor data to measure a walkability dimension",
+      "does not use sensor data to measure walkability"
+    ],
+    "hypothesis_template": "This article {}."
+  },
+  "embedding_margin": {
+    "threshold": -0.1392572522163391,
+    "achieved_recall": 0.9565217391304348,
+    "wss_at_target": 0.11999999999999997,
+    "tn": 15,
+    "fp": 39,
+    "fn": 2,
+    "tp": 44,
+    "hard_negative_anchors": [
+      "This article uses sensor data for robot navigation or autonomous vehicle localization in an urban environment, not to measure walkability.",
+      "This article uses sensor or imagery data to assess crime risk or property value, not walkability.",
+      "This article uses aerial or satellite sensor data only, with no ground-level or pedestrian-scale measurement of the built environment.",
+      "This article measures pedestrian behavior, such as step counts or GPS trajectories, rather than a built-environment attribute of walkability."
+    ]
+  },
+  "joint_and_calibration": {
+    "threshold_a": 0.39397454261779785,
+    "threshold_b": 0.014517546631395817,
+    "recall": 0.9565217391304348,
+    "precision": 0.5945945945945946,
+    "wss": 0.20999999999999996,
+    "tn": 24,
+    "fp": 30,
+    "fn": 2,
+    "tp": 44
+  },
+  "cascade": {
+    "threshold_a": 0.39397454261779785,
+    "threshold_b": 0.04208773002028465,
+    "recall": 0.9130434782608695,
+    "precision": 0.6268656716417911,
+    "wss": 0.27999999999999997,
+    "tn": 29,
+    "fp": 25,
+    "fn": 4,
+    "tp": 42
+  },
+  "multiclass_margin": {
+    "threshold": -0.7696435302495956,
+    "achieved_recall": 0.9565217391304348,
+    "wss_at_target": 0.08999999999999997,
+    "tn": 12,
+    "fp": 42,
+    "fn": 2,
+    "tp": 44,
+    "labels": {
+      "target": "uses sensor data to measure a walkability dimension of the built environment",
+      "behavior_outcome": "uses sensor or wearable data to measure pedestrian behavior or physical activity, such as steps, GPS trajectories, or active travel",
+      "wrong_construct": "uses sensor or imagery data to assess crime risk, collision risk, or property value, not walkability",
+      "no_sensor": "assesses walkability using surveys, self-report, or perception questionnaires, with no sensor or imagery instrument",
+      "robot_navigation": "uses sensor data for robot navigation or autonomous vehicle localization in an urban environment",
+      "aerial_only": "uses aerial or satellite sensor data only, with no ground-level or pedestrian-scale measurement of the built environment",
+      "wrong_population": "studies cyclists or vehicle drivers rather than pedestrians"
+    }
+  },
+  "logistic_stacking": {
+    "threshold": 0.44765604311414176,
+    "achieved_recall": 0.9565217391304348,
+    "wss_at_target": 0.20999999999999996,
+    "tn": 24,
+    "fp": 30,
+    "fn": 2,
+    "tp": 44,
+    "features": [
+      "embedding_score",
+      "zeroshot_score",
+      "embedding_margin_score"
+    ]
+  },
+  "local_llm": {
+    "threshold": 0.05,
+    "achieved_recall": 1.0,
+    "wss_at_target": -0.050000000000000044,
+    "tn": 0,
+    "fp": 54,
+    "fn": 0,
+    "tp": 46,
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "system_prompt": "You are assisting with the screening stage of a PRISMA-ScR systematic mapping review on how sensors and sensing technologies are used to measure walkability dimensions in urban pedestrian environments.\n\nWalkability framework used in this review:\n- Conceptual definition (Annunziata & Garau, 2020): walkability is the potential of the built environment to affect the propensity to walk.\n- Macro-level theory (Ewing & Cervero 5D): density, diversity, design, destination accessibility, distance to transit.\n- Operational classification (expanded Alfonzo hierarchy of walking needs): feasibility, accessibility, safety, comfort, pleasurability.\n\nAn article is IN SCOPE only if it uses a sensor or sensing technology (e.g. street-view imagery + computer vision, LiDAR, accelerometer/wearable used as an environment-facing instrument, IoT device, mobile sensing) as the SOURCE that measures a walkability DIMENSION of the built environment (one of the categories above).\n\nAdjudication rules (apply all three):\n1. Source rule: the source measuring the pedestrian attribute defines scope. Purely aerial/satellite-only acquisition, with no ground-level or pedestrian-scale measurement, is OUT.\n2. Instrument-vs-stimulus rule: imagery used AS THE MEASURING INSTRUMENT (e.g. an automated audit of sidewalk width from street-view images) is IN. Imagery used only as a STIMULUS shown to human raters or survey respondents, with no sensor-derived measurement, is OUT.\n3. Inferential-construct rule: the target of inference matters. An audit or sensor targeting crime risk, property values, robot/vehicle navigation, or general urban form -- even with an identical instrument to a walkability audit -- is OUT unless walkability is the actual measured construct.\n\nBehavior-vs-dimension boundary (the single most common false-positive pattern in this review): pedestrian BEHAVIOR (step counts, GPS trajectories, active travel, physical activity levels, accelerometer-measured movement) is a walkability OUTCOME, not a walkability DIMENSION. An article that measures behavior/outcome using a sensor, without measuring a built-environment attribute, is OUT.\n\nHere are 4 worked examples showing the expected reasoning and output format:\n\nTitle and abstract:\nWearable Sensor-based Walkability Assessment at Ferry Terminal Using Machine Learning: A Case Study of Mokpo, Korea. Walkability assessments are becoming more popular, as walking offers numerous health, environmental, and economic benefits to communities. However, previous studies on ferry terminal walkability assessment have been inade-quate....\n{\"rationale\": \"Uses a sensor or sensing technology as the instrument that measures a walkability dimension of the built environment, per the rules above.\", \"decision\": \"include\", \"score\": 0.95}\n\nTitle and abstract:\nMachine Learning Approach for Automated Detection of Irregular Walking Surfaces for Walkability Assessment with Wearable Sensor. The walkability of a neighborhood impacts public health and leads to economic and environmental benefits. The condition of sidewalks is a significant indicator of a walkable neighborhood as it supports and encourages...\n{\"rationale\": \"Uses a sensor or sensing technology as the instrument that measures a walkability dimension of the built environment, per the rules above.\", \"decision\": \"include\", \"score\": 0.95}\n\nTitle and abstract:\nIEEE intell igent transportation Magazine representative. Reports on the special features of Synthia, the SYNTHetic collection of Imagery and Annotations. This is a dataset that has been generated with the purpose of aiding semantic segmentation and related scene understanding problems in the context of driving scenarios. SYNTHIA consists of a...\n{\"rationale\": \"Does not use a sensor to measure a walkability dimension of the built environment (fails the scope or adjudication rules above).\", \"decision\": \"exclude\", \"score\": 0.05}\n\nTitle and abstract:\nA Verifiably Secure ECC Based Authentication Scheme for Securing IoD Using FANET. Perfect forward secrecy, cross-verification, and robust mutual authentication guarantee secure communication through unfavorable and unsafe channels. The speedy development in wireless communication and drone-assisted networking technology has miserable significance...\n{\"rationale\": \"Does not use a sensor to measure a walkability dimension of the built environment (fails the scope or adjudication rules above).\", \"decision\": \"exclude\", \"score\": 0.05}\n\nGiven the title and abstract of one article, decide whether it is IN or OUT of scope, strictly following the rules above. Think through the rules first, then respond with ONLY a JSON object, no other text, with the fields in this exact order:\n{\"rationale\": \"<one short sentence applying the rules above to this article>\", \"decision\": \"include\" or \"exclude\", \"score\": <float between 0 and 1, where 1.0 means certainly IN scope and 0.0 means certainly OUT of scope>}"
+  },
+  "chosen_method": "joint_and",
+  "corpus_filter_column_used": "is_walkability_recommended",
+  "corpus_n_total": 1445,
+  "corpus_n_filtered": 968
+}

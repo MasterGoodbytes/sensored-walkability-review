@@ -1,0 +1,122 @@
+[
+  {
+    "text": "The system architecture was compared against transformer-based models like BERT and GPT. However, no generative models were applied in the final deployment.",
+    "label": "Not related"
+  },
+  {
+    "text": "We reviewed LLM-based solutions such as ChatGPT but opted for a symbolic rule-based approach for decision-making.",
+    "label": "Not related"
+  },
+  {
+    "text": "The emergency planning module uses a diffusion model to generate synthetic pedestrian flows under various hazard conditions.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "Although the term GAN appears in our keyword list, this study does not use generative models in any part of the methodology.",
+    "label": "Not related"
+  },
+  {
+    "text": "A GAN was trained to synthesize traffic flow scenarios to improve training of traffic prediction networks.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "A graph attention model is used to match address segments hierarchically. The model is compared to LLMs but does not generate any content.",
+    "label": "Not related"
+  },
+  {
+    "text": "Using a VAE, we created synthetic building layouts to test urban planning algorithms under varying density constraints.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "To enhance sensor fault detection, a transformer model was trained using supervised learning without generative capabilities.",
+    "label": "Not related"
+  },
+  {
+    "text": "A diffusion model was employed to simulate post-earthquake structural risk across city zones. The synthetic outputs were used in resource allocation planning.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "The proposed model incorporates positional encodings similar to those in Transformers, but it is a classification model for energy load forecasting.",
+    "label": "Not related"
+  },
+  {
+    "text": "The system architecture was compared against transformer-based models like BERT and GPT. However, no generative models were applied in the final deployment.",
+    "label": "Not related"
+  },
+  {
+    "text": "We reviewed LLM-based solutions such as ChatGPT but opted for a symbolic rule-based approach for decision-making.",
+    "label": "Not related"
+  },
+  {
+    "text": "The emergency planning module uses a diffusion model to generate synthetic pedestrian flows under various hazard conditions.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "Although the term GAN appears in our keyword list, this study does not use generative models in any part of the methodology.",
+    "label": "Not related"
+  },
+  {
+    "text": "A GAN was trained to synthesize traffic flow scenarios to improve training of traffic prediction networks.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "A graph attention model is used to match address segments hierarchically. The model is compared to LLMs but does not generate any content.",
+    "label": "Not related"
+  },
+  {
+    "text": "Using a VAE, we created synthetic building layouts to test urban planning algorithms under varying density constraints.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "To enhance sensor fault detection, a transformer model was trained using supervised learning without generative capabilities.",
+    "label": "Not related"
+  },
+  {
+    "text": "A diffusion model was employed to simulate post-earthquake structural risk across city zones. The synthetic outputs were used in resource allocation planning.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "The proposed model incorporates positional encodings similar to those in Transformers, but it is a classification model for energy load forecasting.",
+    "label": "Not related"
+  },
+  {
+    "text": "While our literature review included diffusion models and LLMs, the model we developed is based entirely on decision trees and rule-based logic.",
+    "label": "Not related"
+  },
+  {
+    "text": "The transformer architecture is mentioned in our discussion of future directions, but this study applies no neural network models.",
+    "label": "Not related"
+  },
+  {
+    "text": "A graph-based framework was evaluated alongside generative methods like GANs, but our final approach is non-generative.",
+    "label": "Not related"
+  },
+  {
+    "text": "We used a CNN to detect traffic anomalies; diffusion models were only briefly explored in background research.",
+    "label": "Not related"
+  },
+  {
+    "text": "An LLM was included in the comparison table but not in the experimental pipeline or results.",
+    "label": "Not related"
+  },
+  {
+    "text": "The model generates synthetic air pollution maps using a VAE trained on historical sensor data.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "We fine-tuned a transformer-based LLM to generate hazard response plans for different urban zones.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "To generate synthetic crime reports for training, we used GPT-style autoregressive modeling.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "A GAN was used to synthesize crowd movement patterns in emergency evacuation simulations.",
+    "label": "GenAI used for smart city application"
+  },
+  {
+    "text": "Synthetic satellite imagery was created using diffusion models to augment remote sensing datasets.",
+    "label": "GenAI used for smart city application"
+  }
+]
